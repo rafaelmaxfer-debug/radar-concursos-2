@@ -40,16 +40,57 @@ def fetch_rss(query):
     with urllib.request.urlopen(req, timeout=25) as resp:
         return ET.fromstring(resp.read(2_000_000))
 
-def pontuar(titulo):
-    """Pontuação de triagem textual, não comprova elegibilidade nem edital."""
-    t = titulo.casefold()
-    score = 10
-    if any(x in t for x in ('engenheiro civil','engenharia civil')): score += 35
-    elif any(x in t for x in ('administr','controlador','auditor','orçamento','finanças','contábil','contabil')): score += 28
-    if any(x in t for x in CIDADES): score += 20
-    if any(x in t for x in ('federal','nacional','tribunal','sefaz')): score += 10
-    if any(x in t for x in ('inscrições abertas','abre inscrições')): score += 5  # apenas indício
-    return min(score, 100)
+
+def Ponteiro(titulo):
+    """Pontuação preliminar por aderência ao perfil."""
+    import unicodedata
+
+    def normalizar(texto):
+        texto = unicodedata.normalize("NFKD", texto.casefold())
+        return "".join(
+            c for c in texto if not unicodedata.combining(c)
+        )
+
+    t = normalizar(titulo)
+    pontuacao = 10
+
+    # Concurso-alvo
+    if "sefaz" in t and any(x in t for x in (
+        "orcamento", "financas", "planejamento"
+    )):
+        pontuacao += 65
+
+    # Engenharia civil
+    elif any(x in t for x in (
+        "engenheiro civil", "engenharia civil"
+    )):
+        pontuacao += 45
+
+    # Administração, gestão e finanças
+    elif any(x in t for x in (
+        "administrador", "analista administrativo",
+        "controlador", "auditor", "orcamento",
+        "financas", "contabilidade"
+    )):
+        pontuacao += 30
+
+    # Localização preferencial
+    if any(x in t for x in (
+        "fernandopolis", "jales", "votuporanga",
+        "estrela d'oeste", "sao jose do rio preto"
+    )):
+        pontuacao += 20
+
+    elif "sao paulo" in t or "sp" in t.split():
+        pontuacao += 10
+
+    # Penalização de notícias antigas
+    import re
+    anos = [int(a) for a in re.findall(r"\b20\d{2}\b", t)]
+    if anos and max(anos) < 2026:
+        pontuacao -= 60
+
+    return max(0, min(pontuacao, 100))
 
 def classificar_prioridade(titulo):
     score = pontuar(titulo)
@@ -81,9 +122,12 @@ def main():
                 added += 1
         except Exception as e:
             failures.append(f'{q}: {type(e).__name__}: {e}')
-    for x in existing.values():
-        x.setdefault('pontuacao_preliminar', pontuar(x.get('titulo','')))
-        x.setdefault('prioridade_sugerida', classificar_prioridade(x.get('titulo','')))
+    
+for x in existente.values():
+    titulo = x.get('titulo', '')
+    x['pontuacao_preliminar'] = Ponteiro(titulo)
+    x['prioridade_sugerida'] = classificar_prioridade(titulo)
+
     data = {'atualizado_em':datetime.now(timezone.utc).isoformat(timespec='seconds'),
             'referencia':CONFIG.get('referencia','Fernandópolis, SP'),
             'raio_km_configurado':CONFIG.get('raio_km',150), 'abrangencia':'Brasil', 'versao':'2.1',
