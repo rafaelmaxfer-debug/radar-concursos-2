@@ -83,14 +83,14 @@ def main():
     for q in QUERIES:
         try:
             root = fetch_rss(q)
-                for item in root.findall('.//item'):
-                    title = re.sub(r'<[^>]+>', '', item.findtext('title') or '').strip()
-                    link  = (item.findtext('link') or '').strip()
-                    if not title or not link: continue
+            for item in root.findall('.//item'):
+                title = re.sub(r'<[^>]+>', '', item.findtext('title') or '').strip()
+                link  = (item.findtext('link') or '').strip()
+                if not title or not link: continue
 
-                    # Ignorar notícias com mais de 90 dias
-                    data_publicacao = item.findtext('pubDate') or ''
-                    if not noticia_recente(data_publicacao):
+                # Ignorar notícias com mais de 90 dias
+                data_publicacao = item.findtext('pubDate') or ''
+                if not noticia_recente(data_publicacao):
                     continue
                 low = title.casefold()
                 if not any(t in low for t in ['concurso','edital','processo seletivo']): continue
