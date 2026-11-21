@@ -5,5 +5,15 @@
   "latitude_referencia": -20.2839,
   "longitude_referencia": -50.2468,
   "excecao_estadual_federal": true,
-  "areas_prioritarias": ["Engenharia Civil", "Gestão e Administração", "Orçamento e Finanças"]
+  "areas_prioritarias": [
+    "Engenharia Civil",
+    "Gestão e Administração",
+    "Controladoria e Auditoria",
+    "Orçamento e Finanças"
+  ],
+  "versao": "2.1",
+  "abrangencia": "Brasil",
+  "raio_km_preferencia_regional": 150,
+  "prioridade_regional_sem_exclusao": true,
+  "observacao": "A pontuação das notícias é preliminar; inscrição aberta somente após edital oficial."
 }
