@@ -10,12 +10,23 @@ from email.utils import parsedate_to_datetime
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = json.loads((ROOT / 'config_radar.json').read_text(encoding='utf-8'))
 QUERIES = [
-    '"concurso público" "engenheiro civil" São Paulo edital',
+    '"concurso público" "engenheiro civil" edital Brasil',
+    '"concurso público" "analista administrativo" edital',
+    '"concurso público" "auditor" "controle" edital',
+    '"concurso público" "orçamento" "finanças" edital',
+    '"concurso público" "controlador interno" edital',
+    '"concurso público" "engenharia civil" "prefeitura" edital',
+    '"concurso público" "engenheiro civil" "universidade federal"',
+    '"concurso público" "analista" "tribunal" edital',
+    '"concurso público" "SEFAZ" "finanças" edital',
     '"concurso público" "Fernandópolis" OR "Jales" OR "Votuporanga"',
     '"concurso público" "São José do Rio Preto" OR "Santa Fé do Sul" OR "Andradina"',
-    '"concurso público" "administração" OR "orçamento" "São Paulo"',
-    'site:doe.sp.gov.br "concurso público" "engenharia"',
+    '"concurso público" "engenheiro civil" "Minas Gerais" OR "Goiás"',
+    '"concurso público" "engenheiro civil" "Paraná" OR "Mato Grosso do Sul"',
+    '"concurso público" "administração" "Nordeste" OR "Norte"',
+    '"concurso público" "engenharia" "Sul" OR "Sudeste"',
 ]
+
 CIDADES = ['fernandópolis','jales','votuporanga','estrela d’oeste','estrela d\'oeste',
            'santa fé do sul','são josé do rio preto','andradina','mirassol','tanabi',
            'general salgado','auriflama','ilha solteira','nhandeara','cardoso']
@@ -28,6 +39,21 @@ def fetch_rss(query):
     req = urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0 (compatible; RadarConcursos/2.0)'})
     with urllib.request.urlopen(req, timeout=25) as resp:
         return ET.fromstring(resp.read(2_000_000))
+
+def pontuar(titulo):
+    """Pontuação de triagem textual, não comprova elegibilidade nem edital."""
+    t = titulo.casefold()
+    score = 10
+    if any(x in t for x in ('engenheiro civil','engenharia civil')): score += 35
+    elif any(x in t for x in ('administr','controlador','auditor','orçamento','finanças','contábil','contabil')): score += 28
+    if any(x in t for x in CIDADES): score += 20
+    if any(x in t for x in ('federal','nacional','tribunal','sefaz')): score += 10
+    if any(x in t for x in ('inscrições abertas','abre inscrições')): score += 5  # apenas indício
+    return min(score, 100)
+
+def classificar_prioridade(titulo):
+    score = pontuar(titulo)
+    return 'P1' if score >= 70 else 'P2' if score >= 55 else 'P3' if score >= 40 else 'P4' if score >= 25 else 'P5'
 
 def main():
     path = ROOT / 'candidatos.json'
@@ -44,22 +70,25 @@ def main():
                 if not title or not link: continue
                 low = title.casefold()
                 if not any(t in low for t in ['concurso','edital','processo seletivo']): continue
-                if not (any(t in low for t in AREAS) or any(t in low for t in CIDADES)): continue
+                if not (any(t in low for t in AREAS) or any(t in low for t in CIDADES) or any(t in q.casefold() for t in AREAS)): continue
                 import hashlib
                 uid = hashlib.sha256((title + link).encode()).hexdigest()[:16]
                 if uid in existing: continue
                 existing[uid] = {'id':uid,'titulo':title,'url_noticia':link,
                                  'publicado_em':item.findtext('pubDate') or '',
                                  'consulta':q,'situacao':'Aguardando conferência do edital oficial',
-                                 'verificado':False}
+                                 'verificado':False, 'prioridade_sugerida':classificar_prioridade(title), 'pontuacao_preliminar':pontuar(title)}
                 added += 1
         except Exception as e:
             failures.append(f'{q}: {type(e).__name__}: {e}')
+    for x in existing.values():
+        x.setdefault('pontuacao_preliminar', pontuar(x.get('titulo','')))
+        x.setdefault('prioridade_sugerida', classificar_prioridade(x.get('titulo','')))
     data = {'atualizado_em':datetime.now(timezone.utc).isoformat(timespec='seconds'),
             'referencia':CONFIG.get('referencia','Fernandópolis, SP'),
-            'raio_km_configurado':CONFIG.get('raio_km',150),
+            'raio_km_configurado':CONFIG.get('raio_km',150), 'abrangencia':'Brasil', 'versao':'2.1',
             'aviso':'Descobertas não verificadas; raio geográfico ainda não validado por rotas. Não representam inscrições abertas.',
-            'candidatos':list(existing.values())[-200:], 'falhas':failures}
+            'candidatos':sorted(existing.values(), key=lambda x: (x.get('pontuacao_preliminar', pontuar(x.get('titulo',''))), x.get('publicado_em','')), reverse=True)[:500], 'falhas':failures}
     path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(f'Busca concluída: {added} novas notícias candidatas; {len(failures)} fontes com falha.')
     print('concursos.json preservado: nenhuma inscrição foi classificada como aberta sem edital oficial.')
