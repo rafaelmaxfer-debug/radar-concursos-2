@@ -3,9 +3,28 @@
 As descobertas vão para candidatos.json, separado dos editais confirmados em concursos.json.
 """
 import json, re, urllib.parse, urllib.request, xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from email.utils import parsedate_to_datetime
+
+def noticia_recente(data_publicacao, dias=90):
+    """Aceita notícias publicadas nos últimos 90 dias."""
+    if not data_publicacao:
+        return False
+
+    try:
+        data = parsedate_to_datetime(data_publicacao)
+
+        if data.tzinfo is None:
+            data = data.replace(tzinfo=timezone.utc)
+
+        agora = datetime.now(timezone.utc)
+        limite = agora - timedelta(days=dias)
+
+        return limite <= data <= agora
+
+    except (TypeError, ValueError, OverflowError):
+        return False
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = json.loads((ROOT / 'config_radar.json').read_text(encoding='utf-8'))
