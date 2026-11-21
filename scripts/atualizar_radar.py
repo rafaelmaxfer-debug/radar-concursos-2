@@ -123,19 +123,15 @@ def main():
         except Exception as e:
             failures.append(f'{q}: {type(e).__name__}: {e}')
     
-for x in existente.values():
-    titulo = x.get('titulo', '')
-    x['pontuacao_preliminar'] = Ponteiro(titulo)
-    x['prioridade_sugerida'] = classificar_prioridade(titulo)
+def principal():
+    # Carregamento e coleta das notícias
+    ...
 
-    data = {'atualizado_em':datetime.now(timezone.utc).isoformat(timespec='seconds'),
-            'referencia':CONFIG.get('referencia','Fernandópolis, SP'),
-            'raio_km_configurado':CONFIG.get('raio_km',150), 'abrangencia':'Brasil', 'versao':'2.1',
-            'aviso':'Descobertas não verificadas; raio geográfico ainda não validado por rotas. Não representam inscrições abertas.',
-            'candidatos':sorted(existing.values(), key=lambda x: (x.get('pontuacao_preliminar', pontuar(x.get('titulo',''))), x.get('publicado_em','')), reverse=True)[:500], 'falhas':failures}
-    path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print(f'Busca concluída: {added} novas notícias candidatas; {len(failures)} fontes com falha.')
-    print('concursos.json preservado: nenhuma inscrição foi classificada como aberta sem edital oficial.')
-    if failures: print('Falhas:', *failures, sep='\n - ')
+    for x in existente.values():
+        titulo = x.get('titulo', '')
+        x['pontuacao_preliminar'] = Ponteiro(titulo)
+        x['prioridade_sugerida'] = classificar_prioridade(titulo)
 
+    # Preparação e gravação dos dados
+    ...
 if __name__ == '__main__': main()
