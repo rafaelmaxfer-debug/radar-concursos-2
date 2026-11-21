@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-21T20:33:47+00:00",
+  "atualizado_em": "2026-11-21T21:07:28+00:00",
   "referencia": "Fernandópolis, SP",
   "raio_km_configurado": 150,
   "abrangencia": "Brasil",
@@ -313,6 +313,17 @@
       "verificado": false,
       "pontuacao_preliminar": 45,
       "prioridade_sugerida": "P3"
+    },
+    {
+      "id": "3826cdf47d8cc0e1",
+      "titulo": "Prefeitura de São Roque do Canaã - ES abre vaga para Engenheiro Civil - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR2d6OHU0dWJrSEVRT2ZuYm53anhOZk83am9sRDFJcW9HQ0xvR2NyUUlmTzZUTm5WeG9tSTVPV2oteVBpdjdMd244WGQxbTVTaXduUW9XdG9UR0Z3aE5TVl9ZTmtEMU8zdk80N2NyT3lqLWtodUtzOUZxemNDWWtDaTB0Mkc1blRSWGlsRGJ5SjhaYlc3ZnVicHhMaTJFcmZiWURoZnVvenFDc1F5?oc=5",
+      "publicado_em": "Mon, 31 Aug 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"engenheiro civil\" edital Brasil",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "prioridade_sugerida": "P3",
+      "pontuacao_preliminar": 45
     },
     {
       "id": "293f2a70b9a0981d",
@@ -2559,6 +2570,17 @@
       "pontuacao_preliminar": 20
     },
     {
+      "id": "5aa38f3e1f0e44f7",
+      "titulo": "Concurso SEFAZ-SP 2026: Inscrição é prorrogada para 60 vagas - Ache Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQzhhQ3dGeExMdkxENEMzQzNDRmxDd1FkdE0tdWI5eUNUMmotdG9IaEJBZGhmZFlXQWJfWmQ4WUlIaG1qQ1BkQnZ6NGdoc3VrWnN5cEtTUFhYbkVka1JGaFNuMjdCZHppZHkzd0c0aDlHVFNvTHlfalZpSkhIemdhU2xNQ3pfdTFNWkE3OE5EUTNsLUphaE1jVUNsR2wtWjg?oc=5",
+      "publicado_em": "Fri, 02 Oct 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"orçamento\" \"finanças\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "prioridade_sugerida": "P5",
+      "pontuacao_preliminar": 20
+    },
+    {
       "id": "06c0fe14a14bc98e",
       "titulo": "Câmara de Santa Isabel - SP retifica e reabre inscrições para concurso público - PCI Concursos",
       "url_noticia": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUkNxVlFzZGM4ZlZ3VHBqdEJpTWw0M1h3clZ0SFh5Z3h5Q1dVS1RLRkZDTllyNFdmT1NxU3QwdDFhWnFLUEQyNEVUR0d2RFlHSHI0MXRYcm1JVnpzb3NrcEZ3MVluenVEMFhmMi0wbXktMGJvRDNlY09LRmVHM3JBdEE4ckl1SndRdElBdThEclhhX1JjV0tYZ0FYZlI0YV95SnhtQjk0OEtIOWd5MFYycVdaSzJkNHBv?oc=5",
@@ -2663,6 +2685,17 @@
       "url_noticia": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6U1NQdHhhNm02cDBFclVWMGh0Q2hXeVMteVNnaWFFVjNxVnNfeXFXaXRmRzVxNWRUZV9aS2U1M2YzcDVLMnlrZzhMQ2xKMFFRSjNQXzdhRHg4YmdYa2ZyRDhWc9IBaEFVX3lxTE1JM1YwMjhJTFJzTlNPTllpdFlUOFY1dEVqWjhxTDBTTExTaWhOcl9CSVA4WFhHTUpkNjBWMGxKdC1ObzU2djMyU2tSZ250VGtzRDJfNkl0QUp5VmVZcTZwVmVhazJaRnAz?oc=5",
       "publicado_em": "Wed, 30 Sep 2026 07:00:00 GMT",
       "consulta": "\"concurso público\" \"analista administrativo\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "prioridade_sugerida": "P5",
+      "pontuacao_preliminar": 10
+    },
+    {
+      "id": "e81b2e3ec398e1a1",
+      "titulo": "Concurso Santa Luzia (MG) 2027 abre mais de 450 vagas de até 8,6 mil mensais - Concursos no Brasil",
+      "url_noticia": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOczRBRDBCY2dJN2pDX2lpQW1PcGpjcC03V1BxclRadVRCUFRwZUpGRWpBT2x1UElXNVVJRUVnYnpQUThiTDZ1cXVJNzJJUGpSZW1PN2ZySEpFOVA4MXhuQjYtX29SSXlxcHdBR214ZkZmaUFCdWZ6SGNXVGFfeWZrUnpndVN1UGxzeld0MzBSUTBUZDFnTmZVSncyNWVFQUxkejAtNFdkWkg3RU4xTUNuaG91WTI4Sk1kb2wtUGZzVml5SE5hTm9B?oc=5",
+      "publicado_em": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"engenheiro civil\" edital Brasil",
       "situacao": "Aguardando conferência do edital oficial",
       "verificado": false,
       "prioridade_sugerida": "P5",
@@ -3345,6 +3378,17 @@
       "url_noticia": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTnpzaUpzQjc3aFlGV3E4YVVCWGJSRnpQOFF2bDZRSzhjVlBWZHRGWGVBRXAzMzZkMExnNFB1LVJpUWV1ZXBWUmhNYWV0UzJXdXJEWVJ5YnBBb19JMmRNelMzckhwTGhOeUFBdU1BR21NZ3lMaUMtcXphNkYtQnVZWFpuTU1PUVpwTjcxNVRaZUp3bGZaLTdJNkJpaEJlTWZCaEpz?oc=5",
       "publicado_em": "Tue, 02 Jun 2026 07:00:00 GMT",
       "consulta": "\"concurso público\" \"analista administrativo\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "prioridade_sugerida": "P5",
+      "pontuacao_preliminar": 10
+    },
+    {
+      "id": "d428b026a2fe0e9d",
+      "titulo": "EPTC de Porto Alegre (RS) promove concurso com salários de até R$ 9,7 mil - Concursos no Brasil",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdlFScVdkeURYd2tWY3c2MUZrVS05LXEtVC1Md01STURkVXJmcHluTUJWcnZxc3BTUnNjSm1Kcmp2bzBqSmNZNU5NckpsWVpIRzZvMkx3Yy1sTVY2WUpWSDA1dlRTamduTVlBR29veUF5TjgyRmZTR2xxZFpxRkhfYXlQX3N5b1F6WUd5LUlzOGxSdEEtNTBnN3Z0NUR5ZDJxeWxEWWx0ajZIbVJqOUQzVWE4Q1JaZ096SUpocUFTY1VoZw?oc=5",
+      "publicado_em": "Tue, 01 Sep 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"engenheiro civil\" edital Brasil",
       "situacao": "Aguardando conferência do edital oficial",
       "verificado": false,
       "prioridade_sugerida": "P5",
@@ -4324,6 +4368,17 @@
       "url_noticia": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTGtxOVpMQ2liSzhHRFdpLXp4UnEwR1ZUeF9mdUwzRllLT3JUUEFOeVlndkdBeXl1bVFBeGlMS19rQVdZOTg2MlB1MW4yYzFlN3E1NVZMMVhJMFEySmRmOG5OYkRwaGlZMC1RRXNGR1QxTnc5YXFnY0VqRWF5NURwRGhKdUY5ZGxkMHJ4bFZiUGtIVlA0cmt0dV92djVhclJFUmNKLTNB?oc=5",
       "publicado_em": "Fri, 12 Dec 2025 08:00:00 GMT",
       "consulta": "\"concurso público\" \"engenheiro civil\" \"Paraná\" OR \"Mato Grosso do Sul\"",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "prioridade_sugerida": "P5",
+      "pontuacao_preliminar": 10
+    },
+    {
+      "id": "b051d17fbe1b33ba",
+      "titulo": "Concurso Prefeitura de Nova Tebas (PR) abre 37 vagas em edital - Concursos no Brasil",
+      "url_noticia": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWmNkWlJKYmQ0RFVLa005Rmp6bUVSNWxuV3dLbjBKY1EtTFlMOFh1Wk00c2pCNFhJbzVkWjBUcEZ0ZWxBa3RHLVMyVDdncjl5X1RIeUlIMjZBbE1FdHVreFF5WWpvbGVHR0IzbW1SSUdJZE1YMHhzWTlTNjMxMTdqTkdDTW44eG9qT0tMenNVTDVvemp6YUhtZENHQkdWemJfNnJheWNpNzV2dHhiMUxhNWVmWVJwdw?oc=5",
+      "publicado_em": "Fri, 11 Sep 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"engenheiro civil\" edital Brasil",
       "situacao": "Aguardando conferência do edital oficial",
       "verificado": false,
       "prioridade_sugerida": "P5",
