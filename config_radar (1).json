@@ -1,0 +1,9 @@
+{
+  "referencia": "Fernandópolis, SP",
+  "raio_km": 150,
+  "metodo_distancia": "linha_reta",
+  "latitude_referencia": -20.2839,
+  "longitude_referencia": -50.2468,
+  "excecao_estadual_federal": true,
+  "areas_prioritarias": ["Engenharia Civil", "Gestão e Administração", "Orçamento e Finanças"]
+}
