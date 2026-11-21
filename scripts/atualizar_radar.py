@@ -86,7 +86,12 @@ def main():
             for item in root.findall('.//item'):
                 title = re.sub(r'<[^>]+>', '', item.findtext('title') or '').strip()
                 link = (item.findtext('link') or '').strip()
-                if not title or not link: continue
+if not title or not link: continue
+
+# Ignorar notícias com mais de 90 dias
+data_publicacao = item.findtext('pubDate') or ''
+if not noticia_recente(data_publicacao):
+    continue
                 low = title.casefold()
                 if not any(t in low for t in ['concurso','edital','processo seletivo']): continue
                 if not (any(t in low for t in AREAS) or any(t in low for t in CIDADES) or any(t in q.casefold() for t in AREAS)): continue
