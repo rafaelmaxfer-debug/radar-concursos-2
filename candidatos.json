@@ -1,11 +1,24 @@
 {
-  "atualizado_em": "2026-11-22T20:19:15+00:00",
+  "atualizado_em": "2026-11-22T21:03:18+00:00",
   "referencia": "Fernandópolis, SP",
   "raio_km_configurado": 150,
   "abrangencia": "Brasil",
   "versao": "2.4",
   "aviso": "Notícias não verificadas. Inscrições abertas exigem edital oficial e prazo; raio regional não validado por rotas.",
   "candidatos": [
+    {
+      "id": "046fd306f3871012",
+      "titulo": "UNESP abre concurso para Professor Substituto de Engenharia Civil no campus de Ilha Solteira - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOak1Ybi1hZzRtZ1RWYllYaGpla0kyb1ZBdHY4UV9jcUFPWFVNNndLX2lOWF83VGo2eEhxVldkOGduSmtBS0FjSE9Kai1SaFJIWl91ME9IcEx4YVJiV3JpM2RpLUFBN09lMkpKMWRMWlRlcDNzZFl4S2ZjbWNMRU5rQ1ZBaXZYYWVCY3h2Y0toSTI4dkgwNGxCek11NkxxVzN1OW5OMGw3M3d5Qi1BNTVOV1pHWGNIaVNPdTRoNmhLNnVEa2tBZ3ZOY1lsdGVOdw?oc=5",
+      "publicado_em": "Tue, 20 Oct 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"engenharia civil\" \"prefeitura\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P2",
+      "pontuacao_preliminar": 65,
+      "novo_na_coleta": true
+    },
     {
       "id": "8d16cfed348b97ab",
       "titulo": "SEFAZ - SP retifica concurso público para Analista em Planejamento, Orçamento e Finanças Públicas - PCI Concursos",
@@ -2686,6 +2699,6 @@
     }
   ],
   "falhas": [],
-  "novas_noticias": 0,
+  "novas_noticias": 1,
   "fontes_com_falha": 0
 }

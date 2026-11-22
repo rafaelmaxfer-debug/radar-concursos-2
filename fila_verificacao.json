@@ -1,7 +1,17 @@
 {
-  "atualizado_em": "2026-11-22T20:19:24+00:00",
-  "total": 206,
+  "atualizado_em": "2026-11-22T21:03:24+00:00",
+  "total": 207,
   "fila": [
+    {
+      "id": "046fd306f3871012",
+      "titulo": "UNESP abre concurso para Professor Substituto de Engenharia Civil no campus de Ilha Solteira - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOak1Ybi1hZzRtZ1RWYllYaGpla0kyb1ZBdHY4UV9jcUFPWFVNNndLX2lOWF83VGo2eEhxVldkOGduSmtBS0FjSE9Kai1SaFJIWl91ME9IcEx4YVJiV3JpM2RpLUFBN09lMkpKMWRMWlRlcDNzZFl4S2ZjbWNMRU5rQ1ZBaXZYYWVCY3h2Y0toSTI4dkgwNGxCek11NkxxVzN1OW5OMGw3M3d5Qi1BNTVOV1pHWGNIaVNPdTRoNmhLNnVEa2tBZ3ZOY1lsdGVOdw?oc=5",
+      "publicado_em": "Tue, 20 Oct 2026 07:00:00 GMT",
+      "prioridade_sugerida": "P2",
+      "pontuacao_preliminar": 65,
+      "situacao": "Aguardando conferência de edital em fonte oficial",
+      "edital_verificado": false
+    },
     {
       "id": "f0ffb3ebdb1b1b41",
       "titulo": "CGU publica edital de concurso para 60 vagas de Auditor Federal de Finanças e Controle - Governo Federal",

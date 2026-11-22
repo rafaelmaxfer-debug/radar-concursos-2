@@ -1,6 +1,22 @@
 {
-  "atualizado_em": null,
-  "total": 0,
-  "vagas": [],
-  "aviso": "Aguardando primeira coleta automática. Nenhuma candidatura foi enviada."
+  "atualizado_em": "2026-11-22T21:03:26+00:00",
+  "total": 1,
+  "vagas": [
+    {
+      "id": "3c7daa37244f50b708",
+      "titulo": "Senior Project Manager (m/w/d)",
+      "empresa": "epilot GmbH",
+      "localidade": "Remote job",
+      "remoto": true,
+      "area": "gestao",
+      "regiao": "remoto",
+      "compatibilidade": 74,
+      "resumo": "Du bist jemand, der gerne Verantwortung übernimmt und Projekte von der Planung bis zum erfolgreichen Abschluss begleitet? Bei uns wirst du zentrale:r Ansprechpartner:in für unsere Kunden, steuerst deren Projekte und trägst aktiv dazu bei, Leuchtturmprojekte zu schaffen, die unser Wachstum vorantreiben. In enger Zusammenarbeit mit unseren ",
+      "url": "https://www.arbeitnow.com/jobs/companies/epilot-gmbh/remote-senior-project-manager-koln-48801",
+      "fonte": "Arbeitnow (anúncio externo)",
+      "publicado_em": "2026-11-22T15:31:17+00:00"
+    }
+  ],
+  "aviso": "Vagas coletadas de feed público, sem verificação de disponibilidade atual. Compatibilidade heurística. Aprovar no painel não envia candidatura. Algumas vagas remotas podem não aceitar candidatos no Brasil.",
+  "erros_coleta": []
 }
