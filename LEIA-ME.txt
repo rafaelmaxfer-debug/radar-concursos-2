@@ -1,0 +1,15 @@
+RADAR INTELIGENTE 3.0 — PACOTE DE ATUALIZAÇÃO
+
+MODO SIMPLIFICADO (sem excluir arquivos existentes):
+1. Abra seu repositório GitHub na aba Code. Use Add file > Upload files.
+2. Envie index.html e vagas.json para a RAIZ do repositório (substitua index.html).
+3. Abra a pasta scripts e envie radar_empregos.py.
+4. Abra .github/workflows/atualizar-radar.yml e substitua pelo arquivo correspondente deste pacote.
+5. Execute uma vez Actions > Atualizar Radar de Concursos e Empregos > Run workflow.
+6. Confira seu site no GitHub Pages e a seção Radar de empregos.
+
+IMPORTANTE: o ZIP NÃO deve ser enviado como um único arquivo ao GitHub; extraia antes.
+Não publique seu currículo PDF, CPF, telefone, endereço residencial, e-mail, tokens ou senhas no repositório público.
+Aprovar uma vaga no navegador NÃO envia candidatura. O candidato abre o link da vaga, confere e envia manualmente.
+A fonte pública inicial é Arbeitnow; a cobertura regional pode ser limitada. O feed pode falhar sem impedir a atualização de concursos.
+Para candidaturas reais em LinkedIn/Gupy/Indeed, serão necessárias integrações autorizadas e autenticação do usuário.
