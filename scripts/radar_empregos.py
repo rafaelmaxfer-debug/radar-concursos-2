@@ -1,59 +1,118 @@
 #!/usr/bin/env python3
-"""Coleta vagas públicas sem login, sem scraping autenticado e sem candidaturas automáticas.
-Fonte primária: API pública Arbeitnow. Falhas preservam vagas existentes e não derrubam Radar de Concursos.
+"""Radar 3.1: vagas de feeds públicos; não envia candidaturas nem comprova elegibilidade.
+Somente vagas com indicação de Brasil ou trabalho global são exibidas.
 """
-import hashlib,html,json,re,urllib.request
-from datetime import datetime,timezone
+import hashlib
+import html
+import json
+import re
+import unicodedata
+import urllib.request
+from datetime import datetime, timezone
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'vagas.json'
-QUERIES=('engenheiro civil','engenharia civil','gerente de obras','gestor de obras','planejamento de obras','construction manager','civil engineer','project manager','administrativo','controller','controladoria','financeiro','agronegocio','agropecuaria','confinamento','boitel','operations manager','administration manager','power bi')
-REGIONAL=('fernandopolis','estrela d oeste','jales','votuporanga','santa fe do sul','ouroeste','sao jose do rio preto','mirassol','tanabi','cardoso','palmeira d oeste')
-def norm(s):
- import unicodedata
- return re.sub(r'\s+',' ',''.join(c for c in unicodedata.normalize('NFKD',str(s or '')) if not unicodedata.combining(c)).lower())
-def area(t):
- if re.search(r'engenh|civil engineer|construction|obras|edificac|revit|autocad',t):return 'engenharia'
- if re.search(r'agro|boitel|confinamento|fazenda|pecuar|livestock|feedlot',t):return 'agro'
- if re.search(r'financ|control|contab|audit|orcament|accounting',t):return 'financas'
- if re.search(r'admin|gest|gerente|manager|diretor|operations|suprimento',t):return 'gestao'
- return 'outros'
-def classify(title,company,location,description,remote):
- t=norm(' '.join((title,company,location)));d=norm(description[:1200]);a=area(t)
- loc=norm(location)
- reg='regional' if any(k in loc for k in REGIONAL) else 'sp' if re.search(r'sao paulo|\bsp\b|paulista',loc) else 'remoto' if remote else 'br'
- points={'engenharia':48,'gestao':43,'agro':47,'financas':40,'outros':0}[a]
- points+=18 if re.search(r'gerente|gestor|coordenador|supervisor|manager|diretor|head',t) else 0
- points+=22 if reg=='regional' else 10 if reg=='sp' else 10 if reg=='remoto' else 0
- points+=min(12,3*sum(bool(re.search(k,d)) for k in ('power bi','excel','custo','budget','planejamento','equipe','cronograma','forecast')))
- return a,reg,min(100,points)
+
+ROOT = Path(__file__).resolve().parents[1]
+OUT = ROOT / 'vagas.json'
+KEYWORDS = ('engenheiro civil','engenharia civil','civil engineer','construction','obras',
+            'project manager','gerente de projetos','gerente de obras','gestor de obras',
+            'controller','controladoria','financeiro','financial manager','administrativo',
+            'operations manager','agronegocio','agropecuaria','agro','feedlot','livestock',
+            'power bi','business intelligence','budget','planejamento')
+REGIONAL = ('fernandopolis','estrela d oeste','jales','votuporanga','santa fe do sul',
+            'ouroeste','sao jose do rio preto','mirassol','tanabi','cardoso','ilha solteira',
+            'general salgado','nhandeara','auriflama','andradina')
+GLOBAL = ('worldwide','anywhere','global','latin america','latam','south america',
+          'brazil','brasil','brazil only','br only')
+
+def norm(value):
+    return re.sub(r'\s+', ' ', ''.join(c for c in unicodedata.normalize('NFKD', str(value or ''))
+              if not unicodedata.combining(c)).lower()).strip()
+
+def clean(value):
+    return re.sub(r'\s+', ' ', re.sub(r'<[^>]*>', ' ', html.unescape(str(value or '')))).strip()
+
+def area(text):
+    if re.search(r'engenh|civil engineer|construction|\bobras\b|edificac|revit', text): return 'engenharia'
+    if re.search(r'agro|boitel|confinamento|fazenda|pecuar|livestock|feedlot', text): return 'agro'
+    if re.search(r'financ|control|contab|audit|orcament|accounting|budget', text): return 'financas'
+    if re.search(r'admin|gest|gerente|manager|diretor|operations|suprimento|project', text): return 'gestao'
+    return 'outros'
+
+def eligibility(location, remote):
+    loc = norm(location)
+    if any(city in loc for city in REGIONAL): return 'regional'
+    if 'brasil' in loc or 'brazil' in loc or re.search(r'\bsp\b|sao paulo', loc): return 'sp'
+    if remote and any(word in loc for word in GLOBAL): return 'remoto'
+    # Remote, por si só, não significa que brasileiros possam se candidatar.
+    return None
+
+def classify(title, company, location, description, remote):
+    t=norm(' '.join((title,company,location))); d=norm(description[:1600]); a=area(t)
+    if a=='outros': a=area(d)
+    region=eligibility(location,remote)
+    points={'engenharia':48,'gestao':43,'agro':47,'financas':40,'outros':0}[a]
+    points+=18 if re.search(r'gerente|gestor|coordenador|supervisor|manager|diretor|head',t) else 0
+    points+=22 if region=='regional' else 12 if region=='sp' else 10 if region=='remoto' else 0
+    points+=min(12,3*sum(bool(re.search(k,d)) for k in ('power bi','excel','custo','budget','planejamento','equipe','cronograma','forecast')))
+    return a,region,min(100,points)
+
 def fetch(url):
- req=urllib.request.Request(url,headers={'User-Agent':'RadarInteligente3/1.0 (public-job-feed)','Accept':'application/json'})
- with urllib.request.urlopen(req,timeout=22) as r:return json.load(r)
+    req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; RadarInteligente/3.1)', 'Accept':'application/json'})
+    with urllib.request.urlopen(req,timeout=22) as response:
+        return json.load(response)
+
+def add(items, title, company, location, description, remote, url, source, published):
+    title=clean(title); company=clean(company); location=clean(location); description=clean(description)
+    if not title or not url or not str(url).startswith('https://'): return
+    searchable=norm(' '.join((title,description[:700])))
+    if not any(k in searchable for k in KEYWORDS): return
+    a,region,score=classify(title,company,location,description,remote)
+    if not region or a=='outros': return
+    uid=hashlib.sha256(str(url).encode()).hexdigest()[:18]
+    items.append({'id':uid,'titulo':title,'empresa':company,'localidade':location,'remoto':bool(remote),
+                  'area':a,'regiao':region,'compatibilidade':score,'resumo':description[:340],
+                  'url':url,'fonte':source,'publicado_em':str(published or '')})
+
 def main():
- old=[]
- if OUT.exists():
-  try:old=json.loads(OUT.read_text(encoding='utf-8')).get('vagas',[])
-  except (ValueError,OSError):pass
- found=[];errors=[]
- for page in (1,2,3):
-  try:
-   data=fetch(f'https://www.arbeitnow.com/api/job-board-api?page={page}')
-   for x in data.get('data',[]):
-    title=x.get('title','');loc=x.get('location','');company=x.get('company_name','');raw=x.get('description','')
-    desc=re.sub(r'<[^>]*>',' ',html.unescape(raw));desc=re.sub(r'\s+',' ',desc).strip()
-    if not any(k in norm(' '.join((title,loc,desc[:250]))) for k in QUERIES):continue
-    remote=bool(x.get('remote'));a,reg,score=classify(title,company,loc,desc,remote)
-    # Exclui anúncios claramente fora do Brasil que não sejam remotos; remoto não implica contratação no Brasil.
-    if reg=='br' and not remote and not re.search(r'brasil|brazil|br\b',norm(loc)):continue
-    url=x.get('url','');uid=hashlib.sha256(str(url or title+company).encode()).hexdigest()[:18]
-    published=x.get('created_at');published=datetime.fromtimestamp(published,timezone.utc).isoformat() if isinstance(published,(int,float)) else str(published or '')
-    found.append({'id':uid,'titulo':title,'empresa':company,'localidade':loc,'remoto':remote,'area':a,'regiao':reg,'compatibilidade':score,'resumo':desc[:340],'url':url,'fonte':'Arbeitnow (anúncio externo)','publicado_em':published})
-  except Exception as e:errors.append(f'Página {page}: {type(e).__name__}: {e}')
- if not found and old:found=old
- seen=set();unique=[]
- for j in sorted(found,key=lambda x:(-x['compatibilidade'],x['titulo'])):
-  if j['id'] not in seen:unique.append(j);seen.add(j['id'])
- result={'atualizado_em':datetime.now(timezone.utc).isoformat(timespec='seconds'),'total':len(unique),'vagas':unique[:400], 'aviso':'Vagas coletadas de feed público, sem verificação de disponibilidade atual. Compatibilidade heurística. Aprovar no painel não envia candidatura. Algumas vagas remotas podem não aceitar candidatos no Brasil.','erros_coleta':errors}
- OUT.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
- print(f'Radar Empregos: {len(unique)} vagas; falhas: {len(errors)}')
-if __name__=='__main__':main()
+    old=[]
+    if OUT.exists():
+        try: old=json.loads(OUT.read_text(encoding='utf-8')).get('vagas',[])
+        except (ValueError,OSError): pass
+    found=[]; errors=[]; success=0
+    for page in (1,2,3):
+        try:
+            data=fetch(f'https://www.arbeitnow.com/api/job-board-api?page={page}')
+            success+=1
+            for x in data.get('data',[]):
+                created=x.get('created_at')
+                published=datetime.fromtimestamp(created,timezone.utc).isoformat() if isinstance(created,(int,float)) else created
+                add(found,x.get('title'),x.get('company_name'),x.get('location'),x.get('description'),
+                    x.get('remote'),x.get('url'),'Arbeitnow',published)
+        except Exception as exc: errors.append(f'Arbeitnow página {page}: {type(exc).__name__}: {exc}')
+    try:
+        data=fetch('https://remotive.com/api/remote-jobs?limit=500')
+        success+=1
+        for x in data.get('jobs',[]):
+            add(found,x.get('title'),x.get('company_name'),x.get('candidate_required_location'),
+                x.get('description'),True,x.get('url'),'Remotive',x.get('publication_date'))
+    except Exception as exc: errors.append(f'Remotive: {type(exc).__name__}: {exc}')
+    try:
+        data=fetch('https://remoteok.com/api')
+        success+=1
+        for x in data if isinstance(data,list) else []:
+            if not isinstance(x,dict) or not x.get('position'): continue
+            add(found,x.get('position'),x.get('company'),x.get('location'),x.get('description'),
+                True,x.get('url'),'Remote OK',x.get('date'))
+    except Exception as exc: errors.append(f'Remote OK: {type(exc).__name__}: {exc}')
+    # Não reaproveitar vagas antigas quando as fontes responderam mas não encontraram vagas elegíveis.
+    if success==0 and old: found=old
+    unique={x['id']:x for x in found}
+    jobs=sorted(unique.values(),key=lambda x:(-x['compatibilidade'],x['titulo']))[:400]
+    result={'atualizado_em':datetime.now(timezone.utc).isoformat(timespec='seconds'),
+            'total':len(jobs),'vagas':jobs,
+            'aviso':'Vagas públicas não verificadas individualmente. Localidade e elegibilidade devem ser confirmadas no anúncio. Pontuação apenas heurística. Aprovar não envia candidatura.',
+            'fontes_respondidas':success,'erros_coleta':errors}
+    OUT.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    print(f'Radar Empregos: {len(jobs)} vagas, {success} consultas bem-sucedidas, {len(errors)} falhas')
+
+if __name__=='__main__': main()
