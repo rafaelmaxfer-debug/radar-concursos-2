@@ -30,6 +30,10 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add concursos.json candidatos.json
           if ! git diff --cached --quiet; then
+          git commit -m "Atualização automática do Radar"
+          git pull --rebase origin main
+          git push origin HEAD:main
+fi
             git commit -m "Atualizacao automatica do Radar"
             git push
           fi
