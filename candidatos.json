@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "2026-11-22T18:56:30+00:00",
+  "atualizado_em": "2026-11-22T19:04:39+00:00",
   "referencia": "Fernandópolis, SP",
   "raio_km_configurado": 150,
   "abrangencia": "Brasil",
-  "versao": "2.3",
-  "aviso": "Notícias não verificadas. Inscrições abertas exigem confirmação de edital oficial e prazo; raio regional não validado por rotas.",
+  "versao": "2.4",
+  "aviso": "Notícias não verificadas. Inscrições abertas exigem edital oficial e prazo; raio regional não validado por rotas.",
   "candidatos": [
     {
       "id": "8d16cfed348b97ab",
@@ -22,19 +22,6 @@
     {
       "id": "f0ffb3ebdb1b1b41",
       "titulo": "CGU publica edital de concurso para 60 vagas de Auditor Federal de Finanças e Controle - Governo Federal",
-      "url_noticia": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNk1RRGlOaGExWU1QejhyalVCQ2VZNzlTQi1BTkFIeTc5RGc2cjhNMGZVdTdROTNZai1ReTRyWHI0YmFWYlZNajZRZElwSktqVXhzZ0ZZSGMxNC1ReEdoNE5CQU1nNzB4MmQ1ZkYwaVVJdkI2bHF5STVzRFMxQ1VIWHdDc0dyZ0xTSHUySG44ZVNoOTJMYnAxUllEeHlVUThGZU9nMFNxNDNSeHdUb29fVXRWcUh5X3d1QmZGMDdkaW1kT2NGZTIxY0trWElwbUlmMk12dVotZjVYOFFzdWRxTUU5eEU1UXo4ZnRZ?oc=5",
-      "publicado_em": "Fri, 09 Oct 2026 07:00:00 GMT",
-      "consulta": "\"concurso público\" \"auditor\" \"controle\" edital",
-      "situacao": "Aguardando conferência do edital oficial",
-      "verificado": false,
-      "prioridade_sugerida": "P3",
-      "pontuacao_preliminar": 48,
-      "tipo_indicio": "Notícia menciona edital (não verificado)",
-      "novo_na_coleta": false
-    },
-    {
-      "id": "c933dccee4637bb2",
-      "titulo": "CGU publica edital de concurso para 60 vagas de Auditor Federal de Finanças e Controle - GOV.BR",
       "url_noticia": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNk1RRGlOaGExWU1QejhyalVCQ2VZNzlTQi1BTkFIeTc5RGc2cjhNMGZVdTdROTNZai1ReTRyWHI0YmFWYlZNajZRZElwSktqVXhzZ0ZZSGMxNC1ReEdoNE5CQU1nNzB4MmQ1ZkYwaVVJdkI2bHF5STVzRFMxQ1VIWHdDc0dyZ0xTSHUySG44ZVNoOTJMYnAxUllEeHlVUThGZU9nMFNxNDNSeHdUb29fVXRWcUh5X3d1QmZGMDdkaW1kT2NGZTIxY0trWElwbUlmMk12dVotZjVYOFFzdWRxTUU5eEU1UXo4ZnRZ?oc=5",
       "publicado_em": "Fri, 09 Oct 2026 07:00:00 GMT",
       "consulta": "\"concurso público\" \"auditor\" \"controle\" edital",
@@ -163,17 +150,43 @@
       "novo_na_coleta": false
     },
     {
-      "id": "a03e08871faeac84",
-      "titulo": "Câmara de São José do Alegre - MG abre concurso para Controlador Interno - PCI Concursos",
-      "url_noticia": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR0NqMUFJWTJiX2Jwa1htTWkyelM3UFhOSXQxa2EyeXV5TWR1WXo0TVRob0JuTi1lemptM0hCYjBNMkxYMGk4emtZT1dvbUkyYU9hUVFyXzdGU2Vtc1RBRWRIWWcxOWZCMFVwdFB6cXZRNllFUzhEc1NMWUJRYzU2LWtOekJBdkFOVDRDdFA1emdqU3R2MWVsT3Z3WjNQYUxRbmpyd0ZoaWRuanVkVDFPeg?oc=5",
-      "publicado_em": "Mon, 16 Nov 2026 18:40:03 GMT",
-      "consulta": "\"concurso público\" \"controlador interno\" edital",
+      "id": "f6e1de13142bc81d",
+      "titulo": "42ª Convocação - Concurso Público - Edital 005/23 - Cargos: Agente Administrativo, Assistente Social, Contador e Psicólogo - Prefeitura de Ubatuba",
+      "url_noticia": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1aYVJMMjdzTk4wNjU2RzdvSHA0b0ZpQU1reXZIOHVHbG14blV1VjBaMUlMMW54VGF4aXMtcjRHTzlZTEROcURmX09vQWpLbVBTSXd6T01ZTmNFZ3ZBdDZ4Y3FQb1NzZFNuNVVzNzVPNFo2djRQQmx6bHJObWNOQQ?oc=5",
+      "publicado_em": "Fri, 13 Nov 2026 23:32:15 GMT",
+      "consulta": "\"concurso público\" \"contador\" edital",
       "situacao": "Aguardando conferência do edital oficial",
       "verificado": false,
+      "tipo_indicio": "Notícia menciona edital (não verificado)",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
+      "novo_na_coleta": true
+    },
+    {
+      "id": "ac5e816db4ef14d9",
+      "titulo": "Câmara de Águas Frias - SC abre concurso para Tesoureiro, Contador e Controle Interno - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSU5VbTU2cEJKa05tcmVGYXlXRHFSX0llNDhIR3lZWGlUb2xYYkgxMW9fV1JsNFlWa1ZYd3RtZnAxU3NhajMzMWQ0YTdaaFlpaG5ON1lPVjBFZ1NfMzZBUWxpa1FhR1dSWnFiZzV4VXNVOVdyT0tKcHpKdkRab2IyRHd5TkVMRGl1dUdtOGtVcmZWMWhheHp2YUZ3bXFTV3NuUlVHUzBXN0M4MEs0aklJYnI2OXU3SkdFMVJyWTg4M2w?oc=5",
+      "publicado_em": "Fri, 13 Nov 2026 08:00:00 GMT",
+      "consulta": "\"concurso público\" \"contador\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
       "tipo_indicio": "Notícia em análise",
-      "novo_na_coleta": false
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "novo_na_coleta": true
+    },
+    {
+      "id": "6c9d99e1d34f3607",
+      "titulo": "18ª Convocação - Concurso Público - Edital 005/23 - Cargos: Agente Administrativo, Agente Comunitário de Saúde, Contador, Farmacêutico, Médico Ginecologista e Obstetra, Motorista e Técnico de Enfermagem. - Prefeitura de Ubatuba",
+      "url_noticia": "https://news.google.com/rss/articles/CBMifkFVX3lxTE15V2FHUzRITks3OHc3QUQ4Nl9sZU9INGUzZVQ1TTZIb0J1Zmk2RGdGZDNsTWQ0TVNUblZmRFY0TjBaSU9vV25WS2l3eW9DaHZUYUlhaGZXamQ4bUxfSVlFWHNRelVvVjBTNFdDM1hGRS1WdTdtVDFVLXJ6OV9Kdw?oc=5",
+      "publicado_em": "Thu, 12 Nov 2026 09:02:49 GMT",
+      "consulta": "\"concurso público\" \"contador\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia menciona edital (não verificado)",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "novo_na_coleta": true
     },
     {
       "id": "4a45f9c2d03453b3",
@@ -186,6 +199,32 @@
       "tipo_indicio": "Notícia menciona edital (não verificado)",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
+      "novo_na_coleta": false
+    },
+    {
+      "id": "5bc735e2554b6b62",
+      "titulo": "Concurso TJ PR: Contador teve prova! Engenheiro previsto! - Nova Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ZSkdqWDM0S2pHSHhEZXZwZEhTSmZzUXJKcE94MkxTWUlMU3N6NXVWZk5pZ3FEUXlDN1BjQ0FrMnRkd0RDcDFmQkNBUjdPbWJPNEhidUNjeV95dHRYdDdmem5BZ3l6YUV3dlhPWElxeHR4T2s?oc=5",
+      "publicado_em": "Thu, 12 Nov 2026 08:00:00 GMT",
+      "consulta": "\"concurso público\" \"engenheiro civil\" \"Paraná\" OR \"Mato Grosso do Sul\"",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "tipo_indicio": "Notícia em análise",
+      "novo_na_coleta": false
+    },
+    {
+      "id": "851e8914aa62c176",
+      "titulo": "Concurso TJ PR Engenheiro segue com banca em definição; veja! - Blog Gran Cursos Online",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9DcmFHZElJLXhaRlRIRkQ2Q3NMQ094WEhqZVdQSDl1OXJWWHBPcUF3WTFncXlPY1REOXFGa2ZBYzhaRVFzUWZFMi1sMFUtYW1qYmk0bktaSWVvMVpOVk5VZUhR?oc=5",
+      "publicado_em": "Wed, 11 Nov 2026 08:00:00 GMT",
+      "consulta": "\"concurso público\" \"analista\" \"tribunal\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "tipo_indicio": "Notícia em análise",
       "novo_na_coleta": false
     },
     {
@@ -332,6 +371,45 @@
       "novo_na_coleta": false
     },
     {
+      "id": "817a07853b8e1245",
+      "titulo": "Concurso TCE RJ: proposta orçamentária prevê novo edital! - Blog Gran Cursos Online",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBobmE2NS1ISjhyWlhQSlk3UDEzTmpvWFRRbWtnRXlUbDhFdkJIT0JwQWcyZ0c0SHFKUFJBZS1EaWNwb3VRT0R1SjhnN1hHSkY3eHJaZVpSRldteUJrMlNCRVVFbw?oc=5",
+      "publicado_em": "Wed, 14 Oct 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"auditor\" \"controle\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "tipo_indicio": "Notícia menciona edital (não verificado)",
+      "novo_na_coleta": false
+    },
+    {
+      "id": "b6c242d8c8f29268",
+      "titulo": "Câmara de Paraíso das Águas - MS abre concurso público para Contador e Assistente Legislativo - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNeEZoNTEwMEZWeUxfYzRhT0VabVJBMHdfWXQ0M25lQ25UZzUzMUd0TU5sRmVMY1dHLWhXQ2dGSTQ5aDE3MGViejVLMFdvMmJQaUp3c1FrTHY2aDBYQTJCY3FTNU82eDk1bmFNenVTSlRaekhpalZYMW5JZ3BDSlNFLTlzLWtLQXBHcGVTM1RuZlBXSEMyejBodFhtRmZfZW1HbUdJUEhYcy1uSHBaOE9NM2gzRURHc3NKWUh5YWpJWkEyd3QzZ1F6Y1JSZTY?oc=5",
+      "publicado_em": "Tue, 13 Oct 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"contador\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "novo_na_coleta": true
+    },
+    {
+      "id": "3dcd9a613617b986",
+      "titulo": "Fundação Catarinense de Cultura - SC abre processo seletivo para Analista Contador - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYnVWekN0VEI3MEVYWVJwOC10WEZMMVVWVUlONHZMTUdMbDhGNTZQdWhzdDRsaWVnTlJPb3NZVlJWRVN2RmpHMHlOYWZPSVFEanJTcWRyVUxGYnllUHdFNXdfX0tNd3FZR2NTRUxILTlBMDAwa3pSSEhSYnQwYS13RWpka2s2UmtlQmRyeDl4dnR0S24wYXpBd01wVWRPdmlTYnB1bG1LcWJNOW14YWRJYzNKZ3dIVlZBTnhCM3Zn?oc=5",
+      "publicado_em": "Tue, 13 Oct 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"contador\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "novo_na_coleta": true
+    },
+    {
       "id": "12a38d02ae5f354f",
       "titulo": "Câmara Municipal de Jeriquara SP retifica concurso para controlador interno - Qconcursos Folha Dirigida",
       "url_noticia": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbU5HbGx2Q0kyOEJzMXltQl9vaUtmQ2FQM2VwSUxRQk9PR2l6S1pXcVo3SFMycU9waHgzOG4zVTlJc25NNWxxaVh0bEpGbDNQa2tETE5GeGJUeHRlSDZpZlhsdFhQOTZDRWtrcWJBZm5rbXRHY01vSVZBV0tJU1BmVWUwU2s5ZnJ0d0d4MTY5U3ZJUjZpRVBRX1g0ZThGZmF4R3hhNWozZHBUZw?oc=5",
@@ -345,6 +423,19 @@
       "novo_na_coleta": false
     },
     {
+      "id": "9c6ef5c0e4878bcb",
+      "titulo": "Câmara de Caratinga abre concurso público com vaga para contador - Guia Muriaé",
+      "url_noticia": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdDA5b0I1bnItbkZMczVGRkN3WTJzZlBlS2MtVUd1c1pucVlkQ3huOVNIMGZYVTgwUlBwUGtTR3lTYjk5bDkzZTNUeHFvVUVMQkM0dV9rcWtySy1ZODNtVWFtcnBVbGZiSVVxVEJXeER4WGNCU19KNEZBY0pkcFNnb2hIRTVma25HUndiZEhhWTBiTTlOd1d5UDBHckR5SFRyRlE2eVZ6dUxPakt3djd5bA?oc=5",
+      "publicado_em": "Tue, 06 Oct 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"contador\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "novo_na_coleta": true
+    },
+    {
       "id": "2b7b7f57f338e235",
       "titulo": "SEAD - AP abre concursos para assistentes administrativos e analistas - PCI Concursos",
       "url_noticia": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWGNpSlBmb3hocHk4YU1HZnRJR0IxN0xqWGhXUThDa2NKOGRyRWtxNUFUcVZSVlZSVWZVb0tCVjNsOC1RTEduQTBaWWh2ZFVkaUV4RzBYVHowNDZNVmZZRlVBc1Y0dTJmdDNjQ1RJYlBzeUJDWTlmVHg5dm5rdjlNR3l1WW9zSmtfWmxKMmY2bkVycmpRX2tMMFZGTS03OXAwaFBSS3lYRzMxREhT?oc=5",
@@ -353,6 +444,19 @@
       "situacao": "Aguardando conferência do edital oficial",
       "verificado": false,
       "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "novo_na_coleta": false
+    },
+    {
+      "id": "e830fecf7ea5c4e0",
+      "titulo": "Edital Gestão Governamental AP publicado; até R$ 8,3 mil - Estratégia Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOd2I3eUd5UFlSWnlFNjRadjU2VkdXZWprVVNJX2lXQkNsMkIyRHJFRHQ0RWVEZWVoSWJCdEpUMGFyMnRidXNkbXF5RHVGSTR1ZVNkckphcm1iWWx2b2oxalpzMldEZ1RqZ09Fa1BjUkxmU0JPZ2VVMVFianhLM3pWeUp0SFFfeWFWN04xZEJ3aVFpT2x10gGaAUFVX3lxTE9wZDUxMWJwckE4cTJFRTk0b1U3UE51VmNDcnZMQnJUcUJNS0ZJZmZ6RlhndkhjRWhzRVYwYlM2NWMtaEdxNXdyR1RTRGVETDdDWW5qRWlzZ2loUHlqQWctTnR6UHAyWWQxYTdBb3JwY0QzLWRsRlZhamUwR0xvdHdmUGh4TDNxT000dWRldGtDMjhkU1JBQzZYU1E?oc=5",
+      "publicado_em": "Thu, 01 Oct 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"analista administrativo\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia menciona edital (não verificado)",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
       "novo_na_coleta": false
@@ -475,6 +579,32 @@
       "novo_na_coleta": false
     },
     {
+      "id": "a2e11852feeacdf1",
+      "titulo": "Consórcio do RN (COPIRN) abre vagas para Contador e Assistente via seletivo - Ache Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdWpPM3ZjNTFSay02TllvVUI4M2p0ejM4bEgwY0NIV3NQd1pxRjgyRkxPZEFlLTBkVFlvTXgwTEI1Uzc3cGd6WTlyVTFlbC0tZ1VMNElYbXRMTFhJeFBhY3pBTG5neVBVMUR0WS1EV0NVdm84bS1wdXhBN2t6blE4NVgtQXFBYjFSMnFDODZ5SU1JVkM0M1hZX3FNZ2lLXzUwWVJ5SjdnU1EzaEpKZlQxeEh6Tkw2TlpQUjUyS2o4czFORUtBX2Z2R0FUNjIwT2ItcC1UZG9PY1ZXdw?oc=5",
+      "publicado_em": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"orçamento\" \"finanças\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "novo_na_coleta": false
+    },
+    {
+      "id": "813c4871604f0365",
+      "titulo": "Prefeitura de Engenheiro Paulo de Frontin - RJ prorroga inscrições para concurso público - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTEtJaUxqeGNmd3d4bVdOYTBjT0IxQ0NxOHVaYzdNSlBGNnZMRGpBQ0p1cldmMXJqMGI0YnIxc3AwMlJGWEhVbEE2NnpMMnVSWkJ1UnBXQmlySWxhS3RLNHUxc3NjM0I4ekx4NVlad3BySU9RckNfVFlLcmE1WDAzMW9lN1RQc21rY2o3MnUzWWFpTVcwZDBmRjBSTTFVUGVoc0IxR2RMWUszODhyT0tYaktvSEo2bU9IdVhOQS1DaWVPRklYNGc?oc=5",
+      "publicado_em": "Fri, 18 Sep 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"engenheiro civil\" São Paulo edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "pontuacao_preliminar": 38,
+      "prioridade_sugerida": "P4",
+      "tipo_indicio": "Notícia em análise",
+      "novo_na_coleta": false
+    },
+    {
       "id": "8eafe412172dcbd0",
       "titulo": "Câmara de Figueirópolis D’Oeste-MT abre concurso para cargo de Analista Administrativo - Ache Concursos",
       "url_noticia": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObnMycjJIeDN5dHpWRldBcjUzMUk0VE9nOENqTjR4NThaSm5RZFJzVzh3ckV1WFNOVUI1Rnk5ci1YVWl2ZEZzRkFRQnhmYko1U1p0TUdkemxfU19URzVfRlUzUmV5VDAzM3R5ZjBPTW9TenlDWDd0Zkxhc1htZ1NwTHZLcUUwLW1NbTZQUHduelNFTFlZVEZSSlhybHNjSDgxTFoxc1c1Znk5WEp1NE1nTUNMTGVQMXRpUmhVZTBPUUM1c28?oc=5",
@@ -525,6 +655,19 @@
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
       "novo_na_coleta": false
+    },
+    {
+      "id": "a458a8ff7dc026e7",
+      "titulo": "Câmara de Piratini - RS abre concurso público para Contador, Oficial Legislativo e Servente - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWW5xcHU0OGFmVndUcVV2bzJadWZLSmVtQlphM283OUZncXhNRnV1UGVsZnVITkFuSWNHdFZfSTlaMnQxUGtHODgtMWVVM2pOcjdhdUZQRFVpWkxFVUpFOFJUZmdvTmFWblpOUnp4eXNuTXM1Y29aZ0FPQUFzYTR5SVFTOWZ1cDVjMnVDSEdnaWtydUdrYzIxMUdzRk1Ed3BVRXc2Wkp2SWRybk9nTWY4LWkyczh2MFF3QXRpTTVOR0J4SzNoV1hGZg?oc=5",
+      "publicado_em": "Tue, 01 Sep 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"contador\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "novo_na_coleta": true
     },
     {
       "id": "ca91848512f2422e",
@@ -1203,19 +1346,6 @@
       "novo_na_coleta": false
     },
     {
-      "id": "f88b60a64806f9f9",
-      "titulo": "Concursos Federais 2027: panorama dos próximos editais - Estratégia Concursos",
-      "url_noticia": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA3Q18zbEpfRDd1TmMxSkdkY3NxN25lcEpsLWFWWDIwb0Z0R0s4cUtsdXJ1WTdWVS1pSXhpNTI4dUFYek9oYVBua2huRjhOMHo4dUNUalozRG1ZQWVJV05rS2U4SzJNLVVwUjI00gFwQVVfeXFMT3Nsd1ZwVG53aVBPQV9sallUaW5UV3N2d0toZU9pWk5iU29GTXMtU282Q3ZTemhFdjJKemxBaEs0MXRFWk5xRmdmMF83dEdHT3R1UDRuY3cyamRtd2loS3hyem1FZFdmOXNkWXFRam4yRw?oc=5",
-      "publicado_em": "Mon, 16 Nov 2026 05:50:00 GMT",
-      "consulta": "\"concurso público\" \"analista administrativo\" edital",
-      "situacao": "Aguardando conferência do edital oficial",
-      "verificado": false,
-      "prioridade_sugerida": "P5",
-      "pontuacao_preliminar": 10,
-      "tipo_indicio": "Notícia em análise",
-      "novo_na_coleta": false
-    },
-    {
       "id": "233cd04a1a71d128",
       "titulo": "Concursos Amazonas: ATUALIZADO! Vagas previstas para 2026 - Estratégia Concursos",
       "url_noticia": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAxYTVuQTh4MHA4R2RKRnRtaWpSMU5zTHNwdUVfSVd1VGFEcnVfbFdab21Ha1dpQ1pTS09jZkp6a3Jramxxc1JzZ2VxQWR4cWFBUHVHbzZjNENoenh4NDRxQXhLd9IBaEFVX3lxTE5KQWxSOG9uTXFJNDBxSndmRzVWZkxyYUtqWkNmaVNvdnphN0ROR0loRmJ6S1M2WlFqbzJlSXhGN2JIek1PTnJXRXc2Z0ZYV2VNUl9zS25LV25MSGdubDc3cWNiTkZadVhx?oc=5",
@@ -1226,7 +1356,7 @@
       "tipo_indicio": "Notícia em análise",
       "prioridade_sugerida": "P5",
       "pontuacao_preliminar": 10,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "8ba3f3c1a545fa1b",
@@ -1312,32 +1442,6 @@
       "url_noticia": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zc2N1VWJMYTZ2VG8wbnU3TUhDSnc5TEF4elpjdGxDMTltRHdhSTlEMmtEVHVxR2thb21BdDh5a3lKWXlrOWVCMnVDbUpnQ2RpMGJPTnlYYmpnb3R6TU41aUV1UQ?oc=5",
       "publicado_em": "Thu, 12 Nov 2026 08:00:00 GMT",
       "consulta": "\"concurso público\" \"auditor\" \"controle\" edital",
-      "situacao": "Aguardando conferência do edital oficial",
-      "verificado": false,
-      "prioridade_sugerida": "P5",
-      "pontuacao_preliminar": 10,
-      "tipo_indicio": "Notícia em análise",
-      "novo_na_coleta": false
-    },
-    {
-      "id": "5bc735e2554b6b62",
-      "titulo": "Concurso TJ PR: Contador teve prova! Engenheiro previsto! - Nova Concursos",
-      "url_noticia": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ZSkdqWDM0S2pHSHhEZXZwZEhTSmZzUXJKcE94MkxTWUlMU3N6NXVWZk5pZ3FEUXlDN1BjQ0FrMnRkd0RDcDFmQkNBUjdPbWJPNEhidUNjeV95dHRYdDdmem5BZ3l6YUV3dlhPWElxeHR4T2s?oc=5",
-      "publicado_em": "Thu, 12 Nov 2026 08:00:00 GMT",
-      "consulta": "\"concurso público\" \"engenheiro civil\" \"Paraná\" OR \"Mato Grosso do Sul\"",
-      "situacao": "Aguardando conferência do edital oficial",
-      "verificado": false,
-      "prioridade_sugerida": "P5",
-      "pontuacao_preliminar": 10,
-      "tipo_indicio": "Notícia em análise",
-      "novo_na_coleta": false
-    },
-    {
-      "id": "851e8914aa62c176",
-      "titulo": "Concurso TJ PR Engenheiro segue com banca em definição; veja! - Blog Gran Cursos Online",
-      "url_noticia": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9DcmFHZElJLXhaRlRIRkQ2Q3NMQ094WEhqZVdQSDl1OXJWWHBPcUF3WTFncXlPY1REOXFGa2ZBYzhaRVFzUWZFMi1sMFUtYW1qYmk0bktaSWVvMVpOVk5VZUhR?oc=5",
-      "publicado_em": "Wed, 11 Nov 2026 08:00:00 GMT",
-      "consulta": "\"concurso público\" \"analista\" \"tribunal\" edital",
       "situacao": "Aguardando conferência do edital oficial",
       "verificado": false,
       "prioridade_sugerida": "P5",
@@ -1866,19 +1970,6 @@
       "novo_na_coleta": false
     },
     {
-      "id": "817a07853b8e1245",
-      "titulo": "Concurso TCE RJ: proposta orçamentária prevê novo edital! - Blog Gran Cursos Online",
-      "url_noticia": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBobmE2NS1ISjhyWlhQSlk3UDEzTmpvWFRRbWtnRXlUbDhFdkJIT0JwQWcyZ0c0SHFKUFJBZS1EaWNwb3VRT0R1SjhnN1hHSkY3eHJaZVpSRldteUJrMlNCRVVFbw?oc=5",
-      "publicado_em": "Wed, 14 Oct 2026 07:00:00 GMT",
-      "consulta": "\"concurso público\" \"auditor\" \"controle\" edital",
-      "situacao": "Aguardando conferência do edital oficial",
-      "verificado": false,
-      "prioridade_sugerida": "P5",
-      "pontuacao_preliminar": 10,
-      "tipo_indicio": "Notícia menciona edital (não verificado)",
-      "novo_na_coleta": false
-    },
-    {
       "id": "b3a048014268da86",
       "titulo": "Concurso TCE RJ: novo edital pode ficar para 2027! - Estratégia Concursos",
       "url_noticia": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5PdGNmTTdSdXBlVVpzVG1nWmhHNGd6RVc2SmdWNHdMRVc0SzRUVVZCYm1UREUyN2lCYXR1Q2FMdk1Wc29aclRTc0p6QjdlS3FlWnVTNWJSbmpMSkUwOWU2Y0MyZUpXbWfSAWxBVV95cUxOdkNzbTRZc1FkYzhjVC1aWjZmQXRTa0FyUU9vMmtRMXloTHJoUG43ekwyN1ZSbEFFbkViX1luT19CX2pwSmdHTzhlRXlVWFZUNEdneG1pZ1VFNnp4Q1FMRmNaZnMySjJsR2E3NEk?oc=5",
@@ -2009,19 +2100,6 @@
       "novo_na_coleta": false
     },
     {
-      "id": "e830fecf7ea5c4e0",
-      "titulo": "Edital Gestão Governamental AP publicado; até R$ 8,3 mil - Estratégia Concursos",
-      "url_noticia": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOd2I3eUd5UFlSWnlFNjRadjU2VkdXZWprVVNJX2lXQkNsMkIyRHJFRHQ0RWVEZWVoSWJCdEpUMGFyMnRidXNkbXF5RHVGSTR1ZVNkckphcm1iWWx2b2oxalpzMldEZ1RqZ09Fa1BjUkxmU0JPZ2VVMVFianhLM3pWeUp0SFFfeWFWN04xZEJ3aVFpT2x10gGaAUFVX3lxTE9wZDUxMWJwckE4cTJFRTk0b1U3UE51VmNDcnZMQnJUcUJNS0ZJZmZ6RlhndkhjRWhzRVYwYlM2NWMtaEdxNXdyR1RTRGVETDdDWW5qRWlzZ2loUHlqQWctTnR6UHAyWWQxYTdBb3JwY0QzLWRsRlZhamUwR0xvdHdmUGh4TDNxT000dWRldGtDMjhkU1JBQzZYU1E?oc=5",
-      "publicado_em": "Thu, 01 Oct 2026 07:00:00 GMT",
-      "consulta": "\"concurso público\" \"analista administrativo\" edital",
-      "situacao": "Aguardando conferência do edital oficial",
-      "verificado": false,
-      "tipo_indicio": "Notícia menciona edital (não verificado)",
-      "prioridade_sugerida": "P5",
-      "pontuacao_preliminar": 10,
-      "novo_na_coleta": false
-    },
-    {
       "id": "0b64440025495868",
       "titulo": "Concurso ANA: novo edital solicitado; 57 vagas! - Estratégia Concursos",
       "url_noticia": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6U1NQdHhhNm02cDBFclVWMGh0Q2hXeVMteVNnaWFFVjNxVnNfeXFXaXRmRzVxNWRUZV9aS2U1M2YzcDVLMnlrZzhMQ2xKMFFRSjNQXzdhRHg4YmdYa2ZyRDhWc9IBaEFVX3lxTE1JM1YwMjhJTFJzTlNPTllpdFlUOFY1dEVqWjhxTDBTTExTaWhOcl9CSVA4WFhHTUpkNjBWMGxKdC1ObzU2djMyU2tSZ250VGtzRDJfNkl0QUp5VmVZcTZwVmVhazJaRnAz?oc=5",
@@ -2113,19 +2191,6 @@
       "novo_na_coleta": false
     },
     {
-      "id": "a2e11852feeacdf1",
-      "titulo": "Consórcio do RN (COPIRN) abre vagas para Contador e Assistente via seletivo - Ache Concursos",
-      "url_noticia": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdWpPM3ZjNTFSay02TllvVUI4M2p0ejM4bEgwY0NIV3NQd1pxRjgyRkxPZEFlLTBkVFlvTXgwTEI1Uzc3cGd6WTlyVTFlbC0tZ1VMNElYbXRMTFhJeFBhY3pBTG5neVBVMUR0WS1EV0NVdm84bS1wdXhBN2t6blE4NVgtQXFBYjFSMnFDODZ5SU1JVkM0M1hZX3FNZ2lLXzUwWVJ5SjdnU1EzaEpKZlQxeEh6Tkw2TlpQUjUyS2o4czFORUtBX2Z2R0FUNjIwT2ItcC1UZG9PY1ZXdw?oc=5",
-      "publicado_em": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "consulta": "\"concurso público\" \"orçamento\" \"finanças\" edital",
-      "situacao": "Aguardando conferência do edital oficial",
-      "verificado": false,
-      "tipo_indicio": "Notícia em análise",
-      "prioridade_sugerida": "P5",
-      "pontuacao_preliminar": 10,
-      "novo_na_coleta": false
-    },
-    {
       "id": "5da9c9b8881ec1ec",
       "titulo": "Edital Prefeitura de Curitiba publicado: 348 vagas + CR; até R$ 38 mil - Direção Concursos",
       "url_noticia": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNmhIekQzR2t4OGowT2VmNVBuQ3RDOHEwR0lVWnRadGd0ck5GTVlEcnZkME1lNEZvVko2d1BSMmVHb2tVNWFISmh1aVVucnQ5aDZTSEJfRWlsQlhHT3R0WVJrTnBpSjJRSWtCUzZoM1k5c1JsU3FUNF9fb3hkVGNNMkRJRk40NzQtT0E0RQ?oc=5",
@@ -2175,19 +2240,6 @@
       "tipo_indicio": "Notícia menciona edital (não verificado)",
       "prioridade_sugerida": "P5",
       "pontuacao_preliminar": 10,
-      "novo_na_coleta": false
-    },
-    {
-      "id": "813c4871604f0365",
-      "titulo": "Prefeitura de Engenheiro Paulo de Frontin - RJ prorroga inscrições para concurso público - PCI Concursos",
-      "url_noticia": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTEtJaUxqeGNmd3d4bVdOYTBjT0IxQ0NxOHVaYzdNSlBGNnZMRGpBQ0p1cldmMXJqMGI0YnIxc3AwMlJGWEhVbEE2NnpMMnVSWkJ1UnBXQmlySWxhS3RLNHUxc3NjM0I4ekx4NVlad3BySU9RckNfVFlLcmE1WDAzMW9lN1RQc21rY2o3MnUzWWFpTVcwZDBmRjBSTTFVUGVoc0IxR2RMWUszODhyT0tYaktvSEo2bU9IdVhOQS1DaWVPRklYNGc?oc=5",
-      "publicado_em": "Fri, 18 Sep 2026 07:00:00 GMT",
-      "consulta": "\"concurso público\" \"engenheiro civil\" São Paulo edital",
-      "situacao": "Aguardando conferência do edital oficial",
-      "verificado": false,
-      "pontuacao_preliminar": 10,
-      "prioridade_sugerida": "P5",
-      "tipo_indicio": "Notícia em análise",
       "novo_na_coleta": false
     },
     {
@@ -2465,6 +2517,6 @@
     }
   ],
   "falhas": [],
-  "novas_noticias": 1,
+  "novas_noticias": 7,
   "fontes_com_falha": 0
 }
