@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-22T20:11:26+00:00",
+  "atualizado_em": "2026-11-22T20:19:15+00:00",
   "referencia": "Fernandópolis, SP",
   "raio_km_configurado": 150,
   "abrangencia": "Brasil",
@@ -121,7 +121,7 @@
       "tipo_indicio": "Notícia em análise",
       "prioridade_sugerida": "P3",
       "pontuacao_preliminar": 45,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "e59cbd486927b0da",
@@ -134,7 +134,7 @@
       "tipo_indicio": "Notícia em análise",
       "prioridade_sugerida": "P3",
       "pontuacao_preliminar": 45,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "b7fc656e379226c9",
@@ -147,7 +147,7 @@
       "tipo_indicio": "Notícia em análise",
       "prioridade_sugerida": "P3",
       "pontuacao_preliminar": 45,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "3826cdf47d8cc0e1",
@@ -940,7 +940,7 @@
       "tipo_indicio": "Notícia em análise",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 30,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "8064ec998102b7e1",
@@ -979,7 +979,7 @@
       "tipo_indicio": "Notícia em análise",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 30,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "2956522891a543fb",
@@ -2686,6 +2686,6 @@
     }
   ],
   "falhas": [],
-  "novas_noticias": 5,
+  "novas_noticias": 0,
   "fontes_com_falha": 0
 }
