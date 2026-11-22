@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-11-22T20:10:33+00:00",
-  "total": 201,
+  "atualizado_em": "2026-11-22T20:11:33+00:00",
+  "total": 206,
   "fila": [
     {
       "id": "f0ffb3ebdb1b1b41",
@@ -79,6 +79,36 @@
       "publicado_em": "Wed, 02 Sep 2026 07:00:00 GMT",
       "prioridade_sugerida": "P3",
       "pontuacao_preliminar": 48,
+      "situacao": "Aguardando conferência de edital em fonte oficial",
+      "edital_verificado": false
+    },
+    {
+      "id": "b7fc656e379226c9",
+      "titulo": "Prefeitura de Canguçu - RS abre seleção para Engenheiro Civil e Geólogo - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQblRQMGxENTNHQXBfMElEczN3Y3RqTzVYczlQSHU1cDZ3X1V4U1BJcWRrMFg2alhUT0ZCM0daV1dPVDEzT2lmVjVoaWRIOTh4Q3BqOXpiV3dVZE9sRG4xTGs2OXJxRGR4MUMxdUJXSW1XUVBlcXZQVXlPc1Q0WXhxUnpnSnM0dlFYQkx1VG5LUkdMZThGdENuWTYwX0NnTE5PcnpmYVNKV0FjMVlLdVY4?oc=5",
+      "publicado_em": "Tue, 15 Sep 2026 07:00:00 GMT",
+      "prioridade_sugerida": "P3",
+      "pontuacao_preliminar": 45,
+      "situacao": "Aguardando conferência de edital em fonte oficial",
+      "edital_verificado": false
+    },
+    {
+      "id": "e59cbd486927b0da",
+      "titulo": "Prefeitura de Presidente Castello Branco - SC abre processo seletivo para Engenheiro Civil - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMTBHWWxqNzhMQ2Y2QjdiMlJYdkVFNmN1dWtXZG5qUHZJbzJjblRLOTZNWlFvS0ZPVk9VNWo5dUw2dkQ0WHlBNXpDZUxicTBGQkZuQ1A3eElXWkdkNWJLTU5pZng3aHhuV3U0V1pUWDZLaXI0b3g3QzVaZ0JxQWt3RzJaQzk5RzBZaDZYOVlodllxY2hiVVppVXlFSVdyVzFjV0R4U1Z5NldLMUU4NHRSQ1ZEbUtuZTVmRHZJeDlTbndka3A2cTh5cg?oc=5",
+      "publicado_em": "Fri, 16 Oct 2026 07:00:00 GMT",
+      "prioridade_sugerida": "P3",
+      "pontuacao_preliminar": 45,
+      "situacao": "Aguardando conferência de edital em fonte oficial",
+      "edital_verificado": false
+    },
+    {
+      "id": "9613505a6de0df27",
+      "titulo": "Prefeitura de Rio das Antas - SC abre processo seletivo para Engenheiro Civil - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQnJ6Y3d1VzRoWko5WUlwVk9ibVlzTkJuUWptQnkyUEluTHhVU25LOW00d3ZBM19rYjE1LU1OTDc3TmttWnExT05FNXRtWFAwaThUMFBrTTZna3l3WWN4YXFTb1Z3ZUNNSkVqOU1PSXEydGRwNnZ0a2pQRzUtcm9xU25DcDMxRE43dU95V1RxUWNjV1VSd0Q3alF5eU1VLWtWdTdGNndSSXZRd1NrVE1iX280dXkxeGs?oc=5",
+      "publicado_em": "Mon, 26 Oct 2026 07:00:00 GMT",
+      "prioridade_sugerida": "P3",
+      "pontuacao_preliminar": 45,
       "situacao": "Aguardando conferência de edital em fonte oficial",
       "edital_verificado": false
     },
@@ -623,6 +653,16 @@
       "edital_verificado": false
     },
     {
+      "id": "ce857b44db12ab84",
+      "titulo": "Biblioteca Municipal de Fernandópolis recebe exposição das obras do Concurso Arte-Marca - Região Noroeste",
+      "url_noticia": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX0JNcnpKQjFRTWRqNzMxaFAxOHM1cTAwOTdHZGIyQllOUnNzbWhqb0x3dG1uT2J2YkJvN1JEZXM3YmtKMVJleUlzLWtLdmJDdVl6bENJR19tbHRabGp0RlphMzVTbzJUd1pWTk9ZWndCY2dWWFJ1RzZGZ1g2OVBLZjU2Vll3SS1HUUpUYzNEU3hrR25nS3pLMEt3TlhuV2VmWjg4eFVhZXdzbjRZY2V3eU85eDBSdw?oc=5",
+      "publicado_em": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 30,
+      "situacao": "Aguardando conferência de edital em fonte oficial",
+      "edital_verificado": false
+    },
+    {
       "id": "6b09219e94a7f336",
       "titulo": "CORECA - SP abre concurso público com vagas na Casa Abrigo de Jales - PCI Concursos",
       "url_noticia": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUGNtNUlEZExWTlY5a18zU0M1endGTU1Bb0sxRUt2bTNUVGVnQ2V6MDZ4ZUlIaHZpOFBVbnpkek5CcXRXQVRjSEZpd2tQNkhBSi1PSk5sc2VSaktuaF9ZOWExN3BadUR2aDU5ZURNeHpvN1k0dV9kbTRTc1BGUzlESlVuaHEtaUlRblJaZTdmOXY0LXhCSjRzZ25tS3lLNjZGNGFrNUJyZGo1UQ?oc=5",
@@ -647,6 +687,16 @@
       "titulo": "Candidatos questionam complexidade de provas de concurso da Prefeitura de Andradina e vereadores prometem levar reclamações ao Executivo - Hojemais.com.br",
       "url_noticia": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOcmg2LURSdHliRHkwYkdCa0tNcFBWMDFzc2JZd3haLW9UYVZSZFZWNV9PVmlkVk5DUWxjT2duN1Y2YkdnbmpDTnp0ZXloUWR5c01lM2RvaFA4M0ZMSEVqYWNXT1R5dmV0enFkUUs1emx4bkd1NzBrNkZhUm9BcWlDdmF1UDRMV2RoTlRmZEZpZV9OUzM0SUM3cUt2eVYxWUhaYzM4azNsMUVXT2gzVXhLUjlIS1k4Y01saktqV0ZIMDhLbTFkZzVPdFFpSGRxdVduNHJUd1kzR1dXanNpLUlaTGI0VWtBWEZ4VWh2aTVWTkdVeWtOeEdvQVRFZHR0WnBHMTRsUmVFWkFJNGNpM3lKLTRIakd1LVA4YUY0Tg?oc=5",
       "publicado_em": "Mon, 31 Aug 2026 07:00:00 GMT",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 30,
+      "situacao": "Aguardando conferência de edital em fonte oficial",
+      "edital_verificado": false
+    },
+    {
+      "id": "2423ec1426da5f1e",
+      "titulo": "Cidade da região abre concurso público com salários de até R$ 8,1 mil - Jornal A Cidade de Votuporanga",
+      "url_noticia": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRzVCNUZVcGNpamNVOXg3SUJEeXpRZFdrNFhWYU50dGN4VldKMEY2Qm5fZ1o2TkFQOFUzSnhFMFFpem1WT2dRcnAyci1GVU5BX0EtVzVNNko4ZHlZaHhWSlNiTmR5TWNVdWdackl4Z2xETmEwbzdqbjJIaGljNUZvRlgzWVFVQnVJV3VtUnB4aFIzaFk5VDNNUG54X2dLRXZFZVhndVhVck96X1YyY0hVeGpoYmNYYkhEUHkwZDBzLU02eUpoZFVJ?oc=5",
+      "publicado_em": "Fri, 23 Oct 2026 07:00:00 GMT",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 30,
       "situacao": "Aguardando conferência de edital em fonte oficial",

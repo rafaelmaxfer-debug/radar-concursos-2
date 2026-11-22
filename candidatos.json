@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-22T20:10:27+00:00",
+  "atualizado_em": "2026-11-22T20:11:26+00:00",
   "referencia": "Fernandópolis, SP",
   "raio_km_configurado": 150,
   "abrangencia": "Brasil",
@@ -30,7 +30,7 @@
       "tipo_indicio": "Notícia menciona edital (não verificado)",
       "prioridade_sugerida": "P3",
       "pontuacao_preliminar": 48,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "f0ffb3ebdb1b1b41",
@@ -109,6 +109,45 @@
       "pontuacao_preliminar": 48,
       "tipo_indicio": "Notícia menciona edital (não verificado)",
       "novo_na_coleta": false
+    },
+    {
+      "id": "9613505a6de0df27",
+      "titulo": "Prefeitura de Rio das Antas - SC abre processo seletivo para Engenheiro Civil - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQnJ6Y3d1VzRoWko5WUlwVk9ibVlzTkJuUWptQnkyUEluTHhVU25LOW00d3ZBM19rYjE1LU1OTDc3TmttWnExT05FNXRtWFAwaThUMFBrTTZna3l3WWN4YXFTb1Z3ZUNNSkVqOU1PSXEydGRwNnZ0a2pQRzUtcm9xU25DcDMxRE43dU95V1RxUWNjV1VSd0Q3alF5eU1VLWtWdTdGNndSSXZRd1NrVE1iX280dXkxeGs?oc=5",
+      "publicado_em": "Mon, 26 Oct 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"engenheiro civil\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P3",
+      "pontuacao_preliminar": 45,
+      "novo_na_coleta": true
+    },
+    {
+      "id": "e59cbd486927b0da",
+      "titulo": "Prefeitura de Presidente Castello Branco - SC abre processo seletivo para Engenheiro Civil - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMTBHWWxqNzhMQ2Y2QjdiMlJYdkVFNmN1dWtXZG5qUHZJbzJjblRLOTZNWlFvS0ZPVk9VNWo5dUw2dkQ0WHlBNXpDZUxicTBGQkZuQ1A3eElXWkdkNWJLTU5pZng3aHhuV3U0V1pUWDZLaXI0b3g3QzVaZ0JxQWt3RzJaQzk5RzBZaDZYOVlodllxY2hiVVppVXlFSVdyVzFjV0R4U1Z5NldLMUU4NHRSQ1ZEbUtuZTVmRHZJeDlTbndka3A2cTh5cg?oc=5",
+      "publicado_em": "Fri, 16 Oct 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"engenheiro civil\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P3",
+      "pontuacao_preliminar": 45,
+      "novo_na_coleta": true
+    },
+    {
+      "id": "b7fc656e379226c9",
+      "titulo": "Prefeitura de Canguçu - RS abre seleção para Engenheiro Civil e Geólogo - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQblRQMGxENTNHQXBfMElEczN3Y3RqTzVYczlQSHU1cDZ3X1V4U1BJcWRrMFg2alhUT0ZCM0daV1dPVDEzT2lmVjVoaWRIOTh4Q3BqOXpiV3dVZE9sRG4xTGs2OXJxRGR4MUMxdUJXSW1XUVBlcXZQVXlPc1Q0WXhxUnpnSnM0dlFYQkx1VG5LUkdMZThGdENuWTYwX0NnTE5PcnpmYVNKV0FjMVlLdVY4?oc=5",
+      "publicado_em": "Tue, 15 Sep 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"engenheiro civil\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P3",
+      "pontuacao_preliminar": 45,
+      "novo_na_coleta": true
     },
     {
       "id": "3826cdf47d8cc0e1",
@@ -381,7 +420,7 @@
       "tipo_indicio": "Notícia menciona edital (não verificado)",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "6b3102c4b4dbb12f",
@@ -459,7 +498,7 @@
       "tipo_indicio": "Notícia em análise",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "3379f44bf0e7245a",
@@ -472,7 +511,7 @@
       "tipo_indicio": "Notícia menciona edital (não verificado)",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "12a38d02ae5f354f",
@@ -511,7 +550,7 @@
       "tipo_indicio": "Notícia em análise",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "2b7b7f57f338e235",
@@ -589,7 +628,7 @@
       "tipo_indicio": "Notícia em análise",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "460908ba18fb13ca",
@@ -693,7 +732,7 @@
       "tipo_indicio": "Notícia menciona edital (não verificado)",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "813c4871604f0365",
@@ -891,6 +930,19 @@
       "novo_na_coleta": false
     },
     {
+      "id": "2423ec1426da5f1e",
+      "titulo": "Cidade da região abre concurso público com salários de até R$ 8,1 mil - Jornal A Cidade de Votuporanga",
+      "url_noticia": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRzVCNUZVcGNpamNVOXg3SUJEeXpRZFdrNFhWYU50dGN4VldKMEY2Qm5fZ1o2TkFQOFUzSnhFMFFpem1WT2dRcnAyci1GVU5BX0EtVzVNNko4ZHlZaHhWSlNiTmR5TWNVdWdackl4Z2xETmEwbzdqbjJIaGljNUZvRlgzWVFVQnVJV3VtUnB4aFIzaFk5VDNNUG54X2dLRXZFZVhndVhVck96X1YyY0hVeGpoYmNYYkhEUHkwZDBzLU02eUpoZFVJ?oc=5",
+      "publicado_em": "Fri, 23 Oct 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"Fernandópolis\" OR \"Jales\" OR \"Votuporanga\"",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 30,
+      "novo_na_coleta": true
+    },
+    {
       "id": "8064ec998102b7e1",
       "titulo": "UNESP abre concurso público para professor substituto de Letras em São José do Rio Preto - SP - PCI Concursos",
       "url_noticia": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUk9sWVAtVUtkbXdiOVpDamZyZmJVSjZEV0dsbGlIbnFlYXEtLXIyUzVtVzVxXzNpeDdrMzJrdGI5UHFtcWc0T1VyUTk3ZVk4OEhKbmluejVKTTl5OU1zMFB1SWlLYkJ2WTRiTGJxLXIxckNjZ19Mb3Izd0o0Z2Zuam1mbUwxM3BRQlY5TV9WRG1YYnFhZ3ZuSzFzS0YtWjh2c2hiWjQ4OWUxZm1zSkN6dkVzTHVIUEhpTTd0Y3pNX1E2UlVDWEg5RHU1Um0?oc=5",
@@ -915,6 +967,19 @@
       "prioridade_sugerida": "P4",
       "tipo_indicio": "Notícia em análise",
       "novo_na_coleta": false
+    },
+    {
+      "id": "ce857b44db12ab84",
+      "titulo": "Biblioteca Municipal de Fernandópolis recebe exposição das obras do Concurso Arte-Marca - Região Noroeste",
+      "url_noticia": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX0JNcnpKQjFRTWRqNzMxaFAxOHM1cTAwOTdHZGIyQllOUnNzbWhqb0x3dG1uT2J2YkJvN1JEZXM3YmtKMVJleUlzLWtLdmJDdVl6bENJR19tbHRabGp0RlphMzVTbzJUd1pWTk9ZWndCY2dWWFJ1RzZGZ1g2OVBLZjU2Vll3SS1HUUpUYzNEU3hrR25nS3pLMEt3TlhuV2VmWjg4eFVhZXdzbjRZY2V3eU85eDBSdw?oc=5",
+      "publicado_em": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"Fernandópolis\" OR \"Jales\" OR \"Votuporanga\"",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 30,
+      "novo_na_coleta": true
     },
     {
       "id": "2956522891a543fb",
@@ -2621,6 +2686,6 @@
     }
   ],
   "falhas": [],
-  "novas_noticias": 7,
+  "novas_noticias": 5,
   "fontes_com_falha": 0
 }
