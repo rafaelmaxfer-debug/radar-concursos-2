@@ -41,8 +41,9 @@ def area(text):
 def eligibility(location, remote):
     loc = norm(location)
     if any(city in loc for city in REGIONAL): return 'regional'
-    if 'brasil' in loc or 'brazil' in loc or re.search(r'\bsp\b|sao paulo', loc): return 'sp'
-    if remote and any(word in loc for word in GLOBAL): return 'remoto'
+    if 'brasil' in loc or 'brazil' in loc: return 'sp'
+    if re.search(r'\bsp\b|sao paulo', loc): return 'sp'
+    if remote and any(re.search(r'(?<![a-z])'+re.escape(word)+r'(?![a-z])',loc) for word in GLOBAL): return 'remoto'
     # Remote, por si só, não significa que brasileiros possam se candidatar.
     return None
 
@@ -68,6 +69,11 @@ def add(items, title, company, location, description, remote, url, source, publi
     if not any(k in searchable for k in KEYWORDS): return
     a,region,score=classify(title,company,location,description,remote)
     if not region or a=='outros': return
+    # A vaga precisa ter cargo profissional compatível, não apenas palavras na descrição.
+    title_area=area(norm(title))
+    if title_area=='outros': return
+    # Evitar vagas estrangeiras sem indicação explícita de elegibilidade brasileira.
+    if region=='sp' and not (re.search(r'brasil|brazil|sao paulo|\bsp\b',norm(location))): return
     uid=hashlib.sha256(str(url).encode()).hexdigest()[:18]
     items.append({'id':uid,'titulo':title,'empresa':company,'localidade':location,'remoto':bool(remote),
                   'area':a,'regiao':region,'compatibilidade':score,'resumo':description[:340],
@@ -104,6 +110,14 @@ def main():
             add(found,x.get('position'),x.get('company'),x.get('location'),x.get('description'),
                 True,x.get('url'),'Remote OK',x.get('date'))
     except Exception as exc: errors.append(f'Remote OK: {type(exc).__name__}: {exc}')
+    # Vagas brasileiras curadas podem ser adicionadas sem alterar o coletor.
+    curated=ROOT/'vagas_brasil.json'
+    if curated.exists():
+        try:
+            manual=json.loads(curated.read_text(encoding='utf-8'))
+            for x in manual.get('vagas',[]):
+                add(found,x.get('titulo'),x.get('empresa'),x.get('localidade'),x.get('descricao',''),x.get('remoto',False),x.get('url'),'Curadoria Brasil',x.get('publicado_em',''))
+        except (OSError,ValueError,TypeError) as exc: errors.append(f'Curadoria Brasil: {type(exc).__name__}: {exc}')
     # Não reaproveitar vagas antigas quando as fontes responderam mas não encontraram vagas elegíveis.
     if success==0 and old: found=old
     unique={x['id']:x for x in found}
