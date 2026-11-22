@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-22T19:57:50+00:00",
+  "atualizado_em": "2026-11-22T20:09:20+00:00",
   "referencia": "Fernandópolis, SP",
   "raio_km_configurado": 150,
   "abrangencia": "Brasil",
@@ -43,7 +43,7 @@
       "tipo_indicio": "Notícia em análise",
       "prioridade_sugerida": "P3",
       "pontuacao_preliminar": 48,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "3ffa5bde93151956",
@@ -2530,6 +2530,6 @@
     }
   ],
   "falhas": [],
-  "novas_noticias": 1,
+  "novas_noticias": 0,
   "fontes_com_falha": 0
 }
