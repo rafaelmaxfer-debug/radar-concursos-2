@@ -24,7 +24,8 @@ jobs:
 
       - name: Executar atualizacao
         run: python scripts/atualizar_radar_v2_4.py
-      
+      - name: Validar editais cadastrados
+        run: python scripts/validar_editais.py
       - name: Salvar dados atualizados
         run: |
           git config user.name "github-actions[bot]"
