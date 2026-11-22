@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-22T20:09:20+00:00",
+  "atualizado_em": "2026-11-22T20:10:27+00:00",
   "referencia": "Fernandópolis, SP",
   "raio_km_configurado": 150,
   "abrangencia": "Brasil",
@@ -18,6 +18,19 @@
       "prioridade_sugerida": "P3",
       "tipo_indicio": "Notícia em análise",
       "novo_na_coleta": false
+    },
+    {
+      "id": "2ace50ab26afe799",
+      "titulo": "Concurso TCE RJ: Tribunal reforça previsão de novo edital para Auditor de Controle Externo - Magistrar",
+      "url_noticia": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMWJUOGhQcmpSb0Rhd21NbkZPakh5dzk3Ym42UlB4M1NUNERDaUc3TWZMMVJ5TlEzVk5aWjh0dm14MUV0STZIVFZQRHR5SzhaZHNVV3FRaVJvV3U5UEh0R2dhSmNXeVljODY4alhUZ2hEamp3azNjRXkwVzdFQlpXMlpMRWhYd2hLVTN1aTF3a3l2NkU3OXgzclcxV3RhazJQY0E5Ump4NmpzVUYtNjQzNUZZNkZ2ODRXU0FVcHh0Q1BoUDFL?oc=5",
+      "publicado_em": "Wed, 14 Oct 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"auditor\" \"controle\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia menciona edital (não verificado)",
+      "prioridade_sugerida": "P3",
+      "pontuacao_preliminar": 48,
+      "novo_na_coleta": true
     },
     {
       "id": "f0ffb3ebdb1b1b41",
@@ -358,6 +371,19 @@
       "novo_na_coleta": false
     },
     {
+      "id": "7a994ec481982cbc",
+      "titulo": "Concurso Prefeitura de Realeza (PR): edital para Controlador Interno e Procurador Jurídico - Meu Preparatório",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMlFuaGNXYUMzeDAyb2VyeUVLTWpZOThUamZFTmdkS1d1WHJJdU0yZVRNbF9fUm9yV0lIejR3eEotYWhwbXItTi1jN3o0WEhwV0tNM2dCZWZ1cXVHOUxzcHFsX0Yzbk96RzVUT0phTk00clBCbnZFWVRRcHd1ZHpSUnJIb2xfRmpsbFhVS2ZvU2tocE4tUHRuM3lFM3dXVG4zUDcyeWFmazZUdHhaN2N0Zk81SWRWYXh2LWoxTl9lQXIxNWM?oc=5",
+      "publicado_em": "Wed, 28 Oct 2026 16:08:23 GMT",
+      "consulta": "\"concurso público\" \"controlador interno\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia menciona edital (não verificado)",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "novo_na_coleta": true
+    },
+    {
       "id": "6b3102c4b4dbb12f",
       "titulo": "FAHECE - SC anuncia processo seletivo para Analista Administrativo I em Joinville - PCI Concursos",
       "url_noticia": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZ2VGamdMaV9KMkkzbGFYNXBON01RdUxVZDBfSkJqbzVrY2tzMkZmaXZnbEpmR1BtdkZZeWpuOEtHNVpCSkxGY2xDSXNzZ3dXSTd5OTVlaTFrSGwtQktxZUh2MFpHZ3NSbk5BNmZodUpBdzFOYW00eE5hQm1Gc2QtUXRKQmk1NV9BcjFfWURWam1TNDVzQXJRZXZaTlN4QTEtZzdZSkExQTVnb0cwRzRZTF9YVF82MnZoY0JOOA?oc=5",
@@ -423,6 +449,32 @@
       "novo_na_coleta": false
     },
     {
+      "id": "f219465879538e00",
+      "titulo": "CGU abre concurso público com vagas para auditores federais de finanças e controle - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQT1g0ZjZEQnRfZFp1bkhNYzh5ZF96aEg1cU5BX3Uwb0lyaXhHZy1UM2lKS05YZ1NrVFZBUENJbXpzLW1HRzdtTDlCNWQtMTlQQkF1YUlDVTAtR3VGOWtvR1B4U3pEcVBpb3gwaWhadHNUNWdfdnVrTVExalNPZV9lV3ptXzFJckhaQktZYXNwb0doV204UVFHOW82dlRNVmtER19MNEU5b01SSlJmRlY0YjVZNXZDTmZ2X1NMTHJQckY?oc=5",
+      "publicado_em": "Fri, 09 Oct 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"auditor\" \"controle\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "novo_na_coleta": true
+    },
+    {
+      "id": "3379f44bf0e7245a",
+      "titulo": "Concurso CGU: Sai edital com 60 vagas para Auditor de R$ 20 mil - Ache Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVUJzb3pxMC0wUXRVb3NmN2NXZnctbE9KLXc4c09yRXNOUFBhZHBnTjZqTmU0MUFwaXpJNXRTX2RFd0VWNUhQLWIxcXYydzhTdm1NTVk0WlVZWURRR1g2dTJVT2pzaldzMl9XTnZNQTZJU1p4WG5FVU1YTXJjc2NoWTR3b0VwdHRGc3dubVdLTjY5dw?oc=5",
+      "publicado_em": "Fri, 09 Oct 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"auditor\" \"controle\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia menciona edital (não verificado)",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "novo_na_coleta": true
+    },
+    {
       "id": "12a38d02ae5f354f",
       "titulo": "Câmara Municipal de Jeriquara SP retifica concurso para controlador interno - Qconcursos Folha Dirigida",
       "url_noticia": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbU5HbGx2Q0kyOEJzMXltQl9vaUtmQ2FQM2VwSUxRQk9PR2l6S1pXcVo3SFMycU9waHgzOG4zVTlJc25NNWxxaVh0bEpGbDNQa2tETE5GeGJUeHRlSDZpZlhsdFhQOTZDRWtrcWJBZm5rbXRHY01vSVZBV0tJU1BmVWUwU2s5ZnJ0d0d4MTY5U3ZJUjZpRVBRX1g0ZThGZmF4R3hhNWozZHBUZw?oc=5",
@@ -447,6 +499,19 @@
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
       "novo_na_coleta": false
+    },
+    {
+      "id": "cf6f48d9bac531a5",
+      "titulo": "Câmara de Cerro Corá – RN abre concurso público para o cargo de Controlador Interno - Gláucia Lima",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU05Ec2J5QjZobExTQ3BfTm1iVmtPS2ZBbUVyVmthTTJmRlJuRlpUaldRLU5qM0s5MUI0TTA5bm50anlpY25XQUZqX1ZLamVoX0NQVzRsQk1Tb1lHRzFuakxIS3dRX2pCLVpia1JfZWJEOE9ma0R0eTdGbDcxSDdLTV9CMUh4dTdSb2dFRGxSTi1ITEt0OFZDRFNrajRIazF4V0I2dnVwWnZPTTNYTUdJXy1jTkVNNzhaeDc0?oc=5",
+      "publicado_em": "Sat, 03 Oct 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"controlador interno\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "novo_na_coleta": true
     },
     {
       "id": "2b7b7f57f338e235",
@@ -512,6 +577,19 @@
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
       "novo_na_coleta": false
+    },
+    {
+      "id": "95e3342488bb6385",
+      "titulo": "Câmara de Acari - RN abre concurso público para Assessor Jurídico e Auditor de Controle Interno - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSHVtT24zMkk5RlROem1Da1JfUTlCV1k1OTFvWld5cE5NOXN1TEUtcUFTTktDNVJoVnJVOGdUM2p1c1J6ZjBDeS02MXBRX0RLdDg1R2ZFNWJNekhpZF9ZMTNMWW5GMVJ1MmxXa0NlTU56b3lVZXBTQm5fc1FIc3lWOVMtM1JPb1Zoa2Z2MVJMQWJYWllKVFFpVmVOWlQ0OXU5WUpCeHBOcUJkVVhxalFqOGtBaTFleWtReUx5N3RPVTVmUnNnZGtpcDU0eEFPQmc?oc=5",
+      "publicado_em": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"auditor\" \"controle\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "novo_na_coleta": true
     },
     {
       "id": "460908ba18fb13ca",
@@ -603,6 +681,19 @@
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
       "novo_na_coleta": false
+    },
+    {
+      "id": "edf1f530cea4800c",
+      "titulo": "Concurso TCU: novo edital para auditor é previsto no PLOA 2027 - Qconcursos Folha Dirigida",
+      "url_noticia": "https://news.google.com/rss/articles/CBMifkFVX3lxTE00T2xKWHdsejVTTEtNekY2ZVZ2ME8ta1dyankyTzZJVFQyLUZYTFFQNTRPUlB0S25mOGJkRF8zQlRpbnByRXdKVlJwWjd4U1Y1NmZfVEh1VF9qMWg2ekpBUVNKMFlHa3gxS1gwTzNwZlJZck43SEcweV9SeDlLQQ?oc=5",
+      "publicado_em": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"auditor\" \"controle\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia menciona edital (não verificado)",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "novo_na_coleta": true
     },
     {
       "id": "813c4871604f0365",
@@ -2530,6 +2621,6 @@
     }
   ],
   "falhas": [],
-  "novas_noticias": 0,
+  "novas_noticias": 7,
   "fontes_com_falha": 0
 }
