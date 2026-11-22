@@ -1,22 +1,23 @@
 {
-  "atualizado_em": "2026-11-22T21:03:26+00:00",
+  "atualizado_em": "2026-11-22T21:16:14+00:00",
   "total": 1,
   "vagas": [
     {
-      "id": "3c7daa37244f50b708",
-      "titulo": "Senior Project Manager (m/w/d)",
-      "empresa": "epilot GmbH",
-      "localidade": "Remote job",
+      "id": "4175f7e93182b41164",
+      "titulo": "Sr. Security Operations Manager",
+      "empresa": "Carrot",
+      "localidade": "Worldwide",
       "remoto": true,
       "area": "gestao",
       "regiao": "remoto",
-      "compatibilidade": 74,
-      "resumo": "Du bist jemand, der gerne Verantwortung übernimmt und Projekte von der Planung bis zum erfolgreichen Abschluss begleitet? Bei uns wirst du zentrale:r Ansprechpartner:in für unsere Kunden, steuerst deren Projekte und trägst aktiv dazu bei, Leuchtturmprojekte zu schaffen, die unser Wachstum vorantreiben. In enger Zusammenarbeit mit unseren ",
-      "url": "https://www.arbeitnow.com/jobs/companies/epilot-gmbh/remote-senior-project-manager-koln-48801",
-      "fonte": "Arbeitnow (anúncio externo)",
-      "publicado_em": "2026-11-22T15:31:17+00:00"
+      "compatibilidade": 71,
+      "resumo": "About Carrot: Carrot is the leading global fertility and family care platform, built on intelligent care orchestration: the right clinical guidance, at the right moment, in the context of each memberâs life. More than a thousand multinational employers, health plans, and health systems trust Carrot to support millions of members across ",
+      "url": "https://remoteOK.com/remote-jobs/remote-sr-security-operations-manager-carrot-1137930",
+      "fonte": "Remote OK",
+      "publicado_em": "2026-11-21T02:20:05+00:00"
     }
   ],
-  "aviso": "Vagas coletadas de feed público, sem verificação de disponibilidade atual. Compatibilidade heurística. Aprovar no painel não envia candidatura. Algumas vagas remotas podem não aceitar candidatos no Brasil.",
+  "aviso": "Vagas públicas não verificadas individualmente. Localidade e elegibilidade devem ser confirmadas no anúncio. Pontuação apenas heurística. Aprovar não envia candidatura.",
+  "fontes_respondidas": 5,
   "erros_coleta": []
 }
