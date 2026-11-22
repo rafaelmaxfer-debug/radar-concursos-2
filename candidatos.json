@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-22T18:45:11+00:00",
+  "atualizado_em": "2026-11-22T18:56:30+00:00",
   "referencia": "Fernandópolis, SP",
   "raio_km_configurado": 150,
   "abrangencia": "Brasil",
@@ -121,7 +121,7 @@
       "tipo_indicio": "Notícia em análise",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "c2b77a0dda6b560f",
@@ -186,7 +186,7 @@
       "tipo_indicio": "Notícia menciona edital (não verificado)",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "bf40fdc6b271d71f",
@@ -1216,6 +1216,19 @@
       "novo_na_coleta": false
     },
     {
+      "id": "233cd04a1a71d128",
+      "titulo": "Concursos Amazonas: ATUALIZADO! Vagas previstas para 2026 - Estratégia Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAxYTVuQTh4MHA4R2RKRnRtaWpSMU5zTHNwdUVfSVd1VGFEcnVfbFdab21Ha1dpQ1pTS09jZkp6a3Jramxxc1JzZ2VxQWR4cWFBUHVHbzZjNENoenh4NDRxQXhLd9IBaEFVX3lxTE5KQWxSOG9uTXFJNDBxSndmRzVWZkxyYUtqWkNmaVNvdnphN0ROR0loRmJ6S1M2WlFqbzJlSXhGN2JIek1PTnJXRXc2Z0ZYV2VNUl9zS25LV25MSGdubDc3cWNiTkZadVhx?oc=5",
+      "publicado_em": "Sat, 14 Nov 2026 08:00:00 GMT",
+      "consulta": "\"concurso público\" \"auditor\" \"controle\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P5",
+      "pontuacao_preliminar": 10,
+      "novo_na_coleta": true
+    },
+    {
       "id": "8ba3f3c1a545fa1b",
       "titulo": "Fundação José Pedro de Oliveira - SP prorroga inscrições para concurso público - PCI Concursos",
       "url_noticia": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNWZyUlQtNTNKc2s0Q0djUHhxalE1VW1pemZwRDdKLW5rNktfME4tcFdmZ2FsY3VSX3pUMlhQVEJQbGpfZExLbGhITk1ZRWlIS0tJb3dUaWVWNjRCU3dHZFVyUDQ1MG9odTdkU3Y1dDc4R3JRUldLRjRVNEtFMVdrNFBIZkM0M0JPY3o2VE40T2dKWjJJQVBJdDVoOWdObDN3cUVuUXJpSWt2X2VadzNIbV9jWi1lNnlU?oc=5",
@@ -1447,7 +1460,7 @@
       "tipo_indicio": "Notícia em análise",
       "prioridade_sugerida": "P5",
       "pontuacao_preliminar": 10,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "90f6f95485cb20d1",
@@ -2452,6 +2465,6 @@
     }
   ],
   "falhas": [],
-  "novas_noticias": 3,
+  "novas_noticias": 1,
   "fontes_com_falha": 0
 }
