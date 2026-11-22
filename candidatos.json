@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-22T19:04:39+00:00",
+  "atualizado_em": "2026-11-22T19:57:50+00:00",
   "referencia": "Fernandópolis, SP",
   "raio_km_configurado": 150,
   "abrangencia": "Brasil",
@@ -31,6 +31,19 @@
       "pontuacao_preliminar": 48,
       "tipo_indicio": "Notícia menciona edital (não verificado)",
       "novo_na_coleta": false
+    },
+    {
+      "id": "d2321886953cfdea",
+      "titulo": "ENTREVISTA: Michael Dowglas de Gois Silva - Aprovado em 1° lugar no concurso Caixa Econômica Federal para o cargo de Engenheiro de Segurança do Trabalho - Macropolo: Centro-Oeste - Polo: Goiás - Estratégia Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc2lDVHdjNEZEOFEwRmRjT2E5RGxrcEVvazBsOWtHVXFaVnA3UDdNdGR0MkNEb2tFZVZ5MEtPRDZoVFJLdnVVeElFRWQ5Yk1Rd19kLTUtVGVtU2c3cjM5aU50RFZLRXhOeWQ2MjlnR3A2b2tYcUVMbkw4M0JjOE9BQ2ZpUTNaOEk1UzB5VGJ6el9FbFNNVWpBZ2ZuaGZ1dy13QVVxVU1SaGk?oc=5",
+      "publicado_em": "Thu, 01 Oct 2026 13:16:49 GMT",
+      "consulta": "\"concurso público\" \"engenheiro civil\" \"Minas Gerais\" OR \"Goiás\"",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P3",
+      "pontuacao_preliminar": 48,
+      "novo_na_coleta": true
     },
     {
       "id": "3ffa5bde93151956",
@@ -160,7 +173,7 @@
       "tipo_indicio": "Notícia menciona edital (não verificado)",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "ac5e816db4ef14d9",
@@ -173,7 +186,7 @@
       "tipo_indicio": "Notícia em análise",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "6c9d99e1d34f3607",
@@ -186,7 +199,7 @@
       "tipo_indicio": "Notícia menciona edital (não verificado)",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "4a45f9c2d03453b3",
@@ -394,7 +407,7 @@
       "tipo_indicio": "Notícia em análise",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "3dcd9a613617b986",
@@ -407,7 +420,7 @@
       "tipo_indicio": "Notícia em análise",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "12a38d02ae5f354f",
@@ -433,7 +446,7 @@
       "tipo_indicio": "Notícia em análise",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "2b7b7f57f338e235",
@@ -667,7 +680,7 @@
       "tipo_indicio": "Notícia em análise",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "ca91848512f2422e",
@@ -2517,6 +2530,6 @@
     }
   ],
   "falhas": [],
-  "novas_noticias": 7,
+  "novas_noticias": 1,
   "fontes_com_falha": 0
 }
