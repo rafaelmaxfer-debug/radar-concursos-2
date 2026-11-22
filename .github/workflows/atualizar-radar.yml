@@ -23,7 +23,7 @@ jobs:
           python-version: '3.12'
 
       - name: Executar atualizacao
-        run: python scripts/atualizar_radar_v2_3.py
+        run: python scripts/atualizar_radar_v2_4.py
       
       - name: Salvar dados atualizados
         run: |
