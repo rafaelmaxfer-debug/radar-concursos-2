@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-11-23T23:34:34+00:00",
-  "total": 16,
+  "atualizado_em": "2026-11-23T23:35:34+00:00",
+  "total": 18,
   "vagas": [
     {
       "id": "0ddc165d12b28b9d84",
@@ -117,6 +117,25 @@
       "publicado_em": "2026-11-19T16:51:16+00:00"
     },
     {
+      "id": "df85b59dc588474db2",
+      "titulo": "Servente de obras | São José do Rio Preto",
+      "empresa": "BRN Construtora",
+      "localidade": "São José do Rio Preto, SP",
+      "remoto": false,
+      "area": "engenharia",
+      "regiao": "regional",
+      "compatibilidade": 73,
+      "prioridade_pontos": 54,
+      "grau_importancia": "Baixa",
+      "cidade_identificada": "Sao Jose Do Rio Preto",
+      "proximidade_ordem": 12,
+      "salario_mensal_brl": null,
+      "resumo": "A BRN Construtora é a empresa que mais cresce no setor da construção civil no Brasil. Com sede em Araras (SP) e atuação em mais de 47 cidades do interior paulista, temos mais de 15 anos de trajetória, mais de 8 mil lares entregues e um propósito claro: construir sonhos e transformar vidas.Somos certificados como um Great Place to Work (GP",
+      "url": "https://brnpar.gupy.io/job/eyJqb2JJZCI6MTE1ODcwNDAsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal",
+      "fonte": "Gupy",
+      "publicado_em": "2026-07-06T12:24:28.257Z"
+    },
+    {
       "id": "cf36806445049e0d18",
       "titulo": "Accounting Project Manager",
       "empresa": "Ryz Labs",
@@ -153,6 +172,25 @@
       "url": "https://himalayas.app/companies/syd-life-ai/jobs/operations-manager?utm_source=api",
       "fonte": "Himalayas",
       "publicado_em": "2026-11-23T00:20:29+00:00"
+    },
+    {
+      "id": "08f197eea3d9e6c4e9",
+      "titulo": "Advogado Controller",
+      "empresa": "GVC SOLUÇÕES EM COBRANÇA",
+      "localidade": "São José do Rio Preto, SP",
+      "remoto": false,
+      "area": "financas",
+      "regiao": "regional",
+      "compatibilidade": 65,
+      "prioridade_pontos": 49,
+      "grau_importancia": "Baixa",
+      "cidade_identificada": "Sao Jose Do Rio Preto",
+      "proximidade_ordem": 12,
+      "salario_mensal_brl": null,
+      "resumo": "Somos uma empresa certificada pelo Great Place to Work, o que reflete nosso compromisso com a criação de um ambiente de trabalho excepcional. Aqui, você terá a chance de trabalhar com uma equipe talentosa e dedicada, em um ambiente colaborativo e inovador. Valorizamos a diversidade de pensamentos e incentivamos a troca de conhecimentos e ",
+      "url": "https://gvcsolucoes.gupy.io/job/eyJqb2JJZCI6MTI3NzAyNTgsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal",
+      "fonte": "Gupy",
+      "publicado_em": "2026-10-22T19:21:02.152Z"
     },
     {
       "id": "591a4270a8e2842d1e",
@@ -308,6 +346,6 @@
     }
   ],
   "aviso": "Vagas públicas não verificadas individualmente. Localidade e elegibilidade devem ser confirmadas no anúncio. Pontuação apenas heurística. Aprovar não envia candidatura.",
-  "fontes_respondidas": 10,
+  "fontes_respondidas": 18,
   "erros_coleta": []
 }
