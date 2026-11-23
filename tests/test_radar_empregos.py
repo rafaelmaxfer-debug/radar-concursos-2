@@ -26,6 +26,11 @@ class TestVagas(unittest.TestCase):
     def test_aceita_controladoria(self):
         self.assertEqual(len(self.collect('Controller', 'Brazil', 'controle financeiro e orçamento')), 1)
 
+    def test_descarta_anuncio_antigo(self):
+        from scripts.radar_empregos import publicado_recente
+        self.assertFalse(publicado_recente('2020-01-01T12:00:00+00:00'))
+        self.assertTrue(publicado_recente(''))
+
     def test_rejeita_remoto_sem_elegibilidade(self):
         self.assertEqual(self.collect('Gerente de Obras', 'United States'), [])
 
