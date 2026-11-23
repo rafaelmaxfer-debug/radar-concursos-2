@@ -16,6 +16,10 @@ class TestVagas(unittest.TestCase):
     def test_rejeita_gerencia_generica_de_produto(self):
         self.assertEqual(self.collect('Product Manager'), [])
 
+    def test_rejeita_cargos_sem_aderencia(self):
+        self.assertEqual(self.collect('Servente de obras', 'São José do Rio Preto, SP'), [])
+        self.assertEqual(self.collect('Advogado Controller', 'São José do Rio Preto, SP'), [])
+
     def test_aceita_gerencia_de_obras(self):
         self.assertEqual(len(self.collect('Gerente de Obras', 'Fernandopolis, SP', 'gestao de obras e custos')), 1)
 
