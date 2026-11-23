@@ -9,7 +9,7 @@ import re
 import unicodedata
 import urllib.request
 import urllib.parse
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -104,9 +104,28 @@ def fetch(url):
     with urllib.request.urlopen(req,timeout=22) as response:
         return json.load(response)
 
+def publicado_recente(value, dias=45):
+    """Aceita data ISO/Unix e descarta vagas seguramente antigas.
+    Data ausente fica pendente e não é inventada.
+    """
+    if value is None or str(value).strip()=='':
+        return True
+    try:
+        if isinstance(value, (int, float)):
+            dt=datetime.fromtimestamp(value, timezone.utc)
+        else:
+            dt=datetime.fromisoformat(str(value).replace('Z','+00:00'))
+            if dt.tzinfo is None:
+                dt=dt.replace(tzinfo=timezone.utc)
+        now=datetime.now(timezone.utc)
+        return now-timedelta(days=dias)<=dt<=now+timedelta(days=1)
+    except (ValueError,OverflowError,TypeError):
+        return True
+
 def add(items, title, company, location, description, remote, url, source, published):
     title=clean(title); company=clean(company); location=clean(location); description=clean(description)
     if not title or not url or not str(url).startswith('https://'): return
+    if not publicado_recente(published): return
     searchable=norm(' '.join((title,description[:700])))
     if not any(k in searchable for k in KEYWORDS): return
     a,region,score=classify(title,company,location,description,remote)
@@ -120,6 +139,9 @@ def add(items, title, company, location, description, remote, url, source, publi
         r'\b(servente|pedreiro|ajudante de obras|auxiliar de obras|estagiari[oa]|aprendiz|advogad[oa]|juridic[oa]|legal counsel)\b',
     )
     if any(re.search(p, titulo_norm) for p in bloqueios): return
+    # Excluir funções fora do escopo mesmo quando título contém "manager".
+    if re.search(r'\b(west division|caribbean only|us only|united states only)\b',titulo_norm): return
+
     # O titulo deve indicar a area, nao apenas descricao ou cargo generico.
     title_area=area(titulo_norm)
     if title_area=='outros': return
@@ -127,6 +149,10 @@ def add(items, title, company, location, description, remote, url, source, publi
         r'\b(operations manager|gerente de operacoes|gerente geral|diretor operacional|project manager|gerente de projetos|gestor de obras|gerente de obras|administrativ|administrative|construction manager)\b',
         titulo_norm,
     ): return
+    # Cargo genérico de gestão exige evidência de gestão operacional/administrativa.
+    if title_area=='gestao' and re.search(r'\b(project manager|operations manager)\b',titulo_norm):
+        if not re.search(r'construction|obras|administrativ|finance|operations|operac|budget|cost|projet', norm(description[:1800]+' '+title)):
+            return
     # Evitar vagas estrangeiras sem indicação explícita de elegibilidade brasileira.
     if region=='sp' and not (re.search(r'brasil|brazil|sao paulo|\bsp\b',norm(location))): return
     remuneracao=salario_mensal(description)
