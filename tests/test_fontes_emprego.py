@@ -32,7 +32,7 @@ class TestFontes(unittest.TestCase):
             with patch.object(radar,'ROOT',root),patch.object(radar,'OUT',root/'vagas.json'),patch.object(radar,'fetch',side_effect=fake_fetch):
                 radar.main()
                 data=json.loads((root/'vagas.json').read_text(encoding='utf-8'))
-            self.assertEqual(data['fontes_respondidas'],18)
+            self.assertEqual(data['fontes_respondidas'],25)
             self.assertEqual(data['total'],2)
             job=next(x for x in data['vagas'] if x['fonte']=='Jobicy')
             self.assertEqual(job['salario_mensal_brl'],9000.0)
