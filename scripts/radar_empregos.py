@@ -18,7 +18,8 @@ KEYWORDS = ('engenheiro civil','engenharia civil','civil engineer','construction
             'project manager','gerente de projetos','gerente de obras','gestor de obras',
             'controller','controladoria','financeiro','financial manager','administrativo',
             'operations manager','agronegocio','agropecuaria','agro','feedlot','livestock',
-            'power bi','business intelligence','budget','planejamento')
+            'power bi','business intelligence','budget','planejamento',
+            'gerente de fazenda','supervisor de obras','engenheiro orcamentista','analista de custos')
 REGIONAL = ('fernandopolis','estrela d oeste','jales','votuporanga','santa fe do sul',
             'ouroeste','sao jose do rio preto','mirassol','tanabi','cardoso','ilha solteira',
             'general salgado','nhandeara','auriflama','andradina')
@@ -35,7 +36,7 @@ def clean(value):
 def area(text):
     if re.search(r'engenh|civil engineer|construction|\bobras\b|edificac|revit', text): return 'engenharia'
     if re.search(r'agro|boitel|confinamento|fazenda|pecuar|livestock|feedlot', text): return 'agro'
-    if re.search(r'financ|control|contab|audit|orcament|accounting|budget', text): return 'financas'
+    if re.search(r'financ|control|contab|audit|orcament|accounting|budget|custos', text): return 'financas'
     if re.search(r'admin|gest|gerente|manager|diretor|operations|suprimento|project', text): return 'gestao'
     return 'outros'
 
@@ -167,6 +168,47 @@ def main():
             add(found,x.get('position'),x.get('company'),x.get('location'),x.get('description'),
                 True,x.get('url'),'Remote OK',x.get('date'))
     except Exception as exc: errors.append(f'Remote OK: {type(exc).__name__}: {exc}')
+    # Gupy: rota JSON publica usada pela busca de empregos no Brasil.
+    # Consultas curtas por municipio/cargo; nada de raspagem massiva.
+    consultas_regionais = (
+        ('Fernandópolis','gerente'),
+        ('Fernandópolis','administrativo'),
+        ('Jales','engenheiro'),
+        ('Jales','agro'),
+        ('Votuporanga','gerente'),
+        ('Votuporanga','obras'),
+        ('São José do Rio Preto','obras'),
+        ('São José do Rio Preto','controller'),
+    )
+    for city,term in consultas_regionais:
+        try:
+            query=urllib.parse.urlencode({'jobName':term,'city':city,'state':'São Paulo',
+                'sortBy':'publishedDate','sortOrder':'desc','limit':20,'offset':0})
+            data=fetch('https://portal.gupy.io/api/job-search/jobs?'+query)
+            if not isinstance(data,dict) or not isinstance(data.get('data'),list):
+                raise ValueError('Resposta Gupy sem lista data')
+            success+=1
+            for x in data['data']:
+                cidade=clean(x.get('city') or '')
+                estado=norm(x.get('state') or '')
+                if norm(cidade)!=norm(city) or estado not in ('sao paulo','sp'):
+                    continue
+                link=x.get('jobUrl') or ''
+                if not re.match(r'^https://[a-z0-9-]+\.gupy\.io/',link,re.I):
+                    continue
+                pub=x.get('publishedDate') or ''
+                deadline=x.get('applicationDeadline') or ''
+                # Prazo expirado e somente arquivado nao entram como vagas abertas.
+                try:
+                    if deadline and datetime.fromisoformat(deadline.replace('Z','+00:00')) < datetime.now(timezone.utc):
+                        continue
+                except ValueError:
+                    pass
+                add(found,x.get('name'),x.get('careerPageName'),f'{cidade}, SP',
+                    x.get('description') or '',x.get('workplaceType')=='remote',
+                    link,'Gupy',pub)
+        except Exception as exc:
+            errors.append(f'Gupy {city} / {term}: {type(exc).__name__}: {exc}')
     # Jobicy: API publica documentada. Filtro de elegibilidade segue 'jobGeo';
     # a API nao deve ser interpretada como garantia de contratacao no Brasil.
     try:
