@@ -69,9 +69,21 @@ def add(items, title, company, location, description, remote, url, source, publi
     if not any(k in searchable for k in KEYWORDS): return
     a,region,score=classify(title,company,location,description,remote)
     if not region or a=='outros': return
-    # A vaga precisa ter cargo profissional compatível, não apenas palavras na descrição.
-    title_area=area(norm(title))
+    # Evita falsos positivos: gerente de seguranca, TI, vendas e areas clinicas
+    # podem parecer compativeis pela palavra "manager" ou pela descricao.
+    titulo_norm = norm(title)
+    bloqueios = (
+        r'\b(security|cybersecurity|infosec|soc manager|devops|software|developer|data engineer|product manager|marketing|sales|clinical|nursing|healthcare|recruitment|human resources|hr manager)\b',
+        r'\b(seguranca da informacao|seguranca cibernetica|recursos humanos|recrutamento|vendas|marketing|enfermagem)\b',
+    )
+    if any(re.search(p, titulo_norm) for p in bloqueios): return
+    # O titulo deve indicar a area, nao apenas descricao ou cargo generico.
+    title_area=area(titulo_norm)
     if title_area=='outros': return
+    if title_area=='gestao' and not re.search(
+        r'\b(operations manager|gerente de operacoes|gerente geral|diretor operacional|project manager|gerente de projetos|gestor de obras|gerente de obras|administrativ|administrative|construction manager)\b',
+        titulo_norm,
+    ): return
     # Evitar vagas estrangeiras sem indicação explícita de elegibilidade brasileira.
     if region=='sp' and not (re.search(r'brasil|brazil|sao paulo|\bsp\b',norm(location))): return
     uid=hashlib.sha256(str(url).encode()).hexdigest()[:18]
