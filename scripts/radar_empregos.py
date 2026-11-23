@@ -42,6 +42,7 @@ def area(text):
 
 def eligibility(location, remote):
     loc = norm(location)
+    if remote and loc.startswith('remoto - elegivel brasil'): return 'remoto'
     if any(city in loc for city in REGIONAL): return 'regional'
     if 'brasil' in loc or 'brazil' in loc: return 'sp'
     if re.search(r'\bsp\b|sao paulo', loc): return 'sp'
@@ -246,7 +247,7 @@ def main():
                 if isinstance(restrictions,list) and restrictions:
                     names=' '.join(str(z.get('name') or z.get('code') or '') if isinstance(z,dict) else str(z) for z in restrictions)
                     if not re.search(r'\b(br|brazil|brasil)\b',norm(names)): continue
-                    loc='Brazil'
+                    loc='Remoto - elegivel Brasil'
                 else:
                     loc='Worldwide'
                 desc=x.get('description') or x.get('excerpt') or ''
