@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-22T21:16:07+00:00",
+  "atualizado_em": "2026-11-23T11:50:32+00:00",
   "referencia": "Fernandópolis, SP",
   "raio_km_configurado": 150,
   "abrangencia": "Brasil",
@@ -1291,19 +1291,6 @@
       "prioridade_sugerida": "P5",
       "pontuacao_preliminar": 20,
       "tipo_indicio": "Notícia em análise",
-      "novo_na_coleta": false
-    },
-    {
-      "id": "261e407b23a32fab",
-      "titulo": "Concurso SEFAZ AL divulga abertura de novo edital com 100 vagas - Concursos no Brasil",
-      "url_noticia": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZndQdTQxZk9LWlc5dHY2azZuZms3U0o0LWJLczFVczVMTGxWZWVtMG5uRHBSQkVxZDN5bDdhNkdoeUt0ckVlRWNndzZnVmpHTzF1cHB6VThfdmlQYU1oQmFzLTdEVTdVLWt2REJ1UUt6U25EdGoyOWF3Y3hSUUJnSWIyak9xbWZDSU5wa3M2eDNDNXQyX2FtOUtHMVZRX1dvRzBOd2xzN0JGX3Jjd3hkVk1xak1fS2tZOXc?oc=5",
-      "publicado_em": "Tue, 25 Aug 2026 07:00:00 GMT",
-      "consulta": "\"concurso público\" \"SEFAZ\" \"finanças\" edital",
-      "situacao": "Aguardando conferência do edital oficial",
-      "verificado": false,
-      "prioridade_sugerida": "P5",
-      "pontuacao_preliminar": 20,
-      "tipo_indicio": "Notícia menciona edital (não verificado)",
       "novo_na_coleta": false
     },
     {
@@ -2698,7 +2685,10 @@
       "novo_na_coleta": false
     }
   ],
-  "falhas": [],
+  "falhas": [
+    "\"concurso público\" \"orçamento\" \"finanças\" edital: HTTPError: HTTP Error 429: Too Many Requests",
+    "\"concurso público\" \"engenharia civil\" \"prefeitura\" edital: HTTPError: HTTP Error 429: Too Many Requests"
+  ],
   "novas_noticias": 0,
-  "fontes_com_falha": 0
+  "fontes_com_falha": 2
 }
