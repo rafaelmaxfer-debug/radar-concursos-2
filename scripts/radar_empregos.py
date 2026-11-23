@@ -116,6 +116,7 @@ def add(items, title, company, location, description, remote, url, source, publi
     bloqueios = (
         r'\b(security|cybersecurity|infosec|soc manager|devops|software|developer|data engineer|product manager|marketing|sales|clinical|nursing|healthcare|recruitment|human resources|hr manager)\b',
         r'\b(seguranca da informacao|seguranca cibernetica|recursos humanos|recrutamento|vendas|marketing|enfermagem)\b',
+        r'\b(servente|pedreiro|ajudante de obras|auxiliar de obras|estagiari[oa]|aprendiz|advogad[oa]|juridic[oa]|legal counsel)\b',
     )
     if any(re.search(p, titulo_norm) for p in bloqueios): return
     # O titulo deve indicar a area, nao apenas descricao ou cargo generico.
