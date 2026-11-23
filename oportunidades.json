@@ -1,8 +1,89 @@
 {
-  "atualizado_em": null,
-  "total": 0,
-  "oportunidades": [],
-  "aviso": "Coletor implementado; primeira execução ainda pendente. Não há oportunidades verificadas nesta lista.",
-  "consultas_respondidas": 0,
+  "atualizado_em": "2026-11-23T23:34:35+00:00",
+  "total": 10,
+  "oportunidades": [
+    {
+      "id": "c2debc3a6fc3aa5f73",
+      "titulo": "TCE-BA impede Cerb de prorrogar contrato de engenharia de R$ 32,7 milhões - Acesse Política",
+      "categoria": "VALORE e serviços técnicos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdzNQWXJrVk1KajdtSjlwVno2dWV2c1lyaDB2anhmQk5vMUR2cUdDMW5hZnFIS3VPelVtV2tDb3F0X3drcDZ3X0pKdWtHWm16SjVTMURuMG5HQ2tnN2VmdEl3WFpZVmJUTjJ3ZklXOHpzd2VrNUpEWDZxVUlvTHlaUjVnYUZTc3Y1MzB2a0czWjBEbTZzd2gwcVZEdHk0cE9xdGVWOEJxZjdYNmZiWmE3akNBRkU1ZDF2?oc=5",
+      "publicado_em": "2026-11-23T18:19:29+00:00",
+      "status": "Indício não verificado — confirmar anúncio e requisitos"
+    },
+    {
+      "id": "551a40e3524f8b89ba",
+      "titulo": "Porto Velho, Ariquemes e mais sete cidades - ncnews.com.br",
+      "categoria": "VALORE e serviços técnicos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPLUwtNU5TRG9Nd21sRkF5R1gwNWpnSjQ2OXlfUjRVUmJORU5uMDNpN0xwd2ZCSUJEMm1Fd09NRDF3RlZZbGFkbFBjdmR6ZDJiREsxa3JQZHROQl9rRzBDZWxVVnFpNWJjLUVIaWpXRkxEb01aS3dTa3pmTDlVRENpMQ?oc=5",
+      "publicado_em": "2026-11-20T23:30:56+00:00",
+      "status": "Indício não verificado — confirmar anúncio e requisitos"
+    },
+    {
+      "id": "deb506a1a7f935e9f2",
+      "titulo": "Engenharia em movimento: expansão do sistema metroferroviário de São Paulo - Revista O Empreiteiro",
+      "categoria": "Gestão e controladoria",
+      "url_noticia": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yOF9vMU5Hb3Z4UmxHN2xya2dZbU5sbEdFWWZld3JqbkJqeDVCdGpIZTB4aGVWNDdySlVvWlZ6Z1VHcmt0cGw0Q25qSjJieE80cDNPM3NiR3dKNnkxTFh2cjY1dk5Odm5vY1RVbkJB?oc=5",
+      "publicado_em": "2026-11-18T19:26:08+00:00",
+      "status": "Indício não verificado — confirmar anúncio e requisitos"
+    },
+    {
+      "id": "621232d640c4954280",
+      "titulo": "CRT-SP propõe parcerias com prefeituras para agilizar projetos e serviços técnicos - CBN Ribeirão",
+      "categoria": "VALORE e serviços técnicos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRjRJV2ljX01xZHdyYmtXdkVXY1JrSnBPSjRZZmE2QTNhZnpKckNJVkFtQnhwdUtKdlo3X2JvNm9hZGRQc3Mzd25scGtNQjJIZjFEOGxEdU9RNmU1WTJjeHcxOTk1NHJXZEZvVVU1dGtFSHRWbWpCa2FvZ3pPU0ZaYnBvNFBqREhFR0dzUlhsNmZXSGpsTXdxUDhQMzJFT19WemVkLXRtZ0lpa0FQbWtZ?oc=5",
+      "publicado_em": "2026-11-12T18:05:39+00:00",
+      "status": "Indício não verificado — confirmar anúncio e requisitos"
+    },
+    {
+      "id": "058dce0fe961d14a16",
+      "titulo": "TCE-RO suspende licitação de R$ 3,4 milhões de engenharia em Costa Marques - Eu Ideal",
+      "categoria": "VALORE e serviços técnicos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeEFhSnZveEs3QS1FWjBzbTBtdnEzV2EzTElGRzlKSElObjZJSk1nb2JwNVlaa3AybzRSUjVjRkNITlpqVFUwQ0gwdUQtWlpIcERYY0p2dm5UTzlYOUNFZXV1UmFxVi1Jd0pnTVZJZElYX3JDT2I4LUNHcEhsM1JUVGxkOGc0MlpEelVha2ZsRkpOeFVkbkl4dmdnVXEyVllQU0ZXVFZ5WVlvdVdUeEhpb0JkYTFhQlBjU25QQXI5RGl0Z1lERjdsVEtVOWRSUW8?oc=5",
+      "publicado_em": "2026-11-12T12:49:00+00:00",
+      "status": "Indício não verificado — confirmar anúncio e requisitos"
+    },
+    {
+      "id": "e4b7cfb118366f2296",
+      "titulo": "Concurso Cetesb SP: inscrições para níveis médio, técnico e superior. Até R$12.023! - Central de Concursos",
+      "categoria": "Empregos regionais",
+      "url_noticia": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOV1FzTEV1NWxzUFUxRmt0RlV5Mm80Q2ZJZFBnWHlENjdGVFZMX2VQZWxBNWxLMXI2OFRHWFhtV0ZweWJQcFE2RFVwTTJ3SnR3TXROMGotR1NxWTRSU1ZybjRobE5kRlNVNThQUTB1X2ZMLTQtc2RROVJ2SU1TMm1hNjZXRnVBVlFyaW5jSTdNb2hoc3ZMcGFMWjM0LW1EUFBkbFBfc3VsVzVqM295?oc=5",
+      "publicado_em": "2026-11-12T08:00:00+00:00",
+      "status": "Indício não verificado — confirmar anúncio e requisitos"
+    },
+    {
+      "id": "1cbba565e3665e4d8a",
+      "titulo": "Concurso AGU 403 vagas solicitadas! Inicial de R$ 8,7 mil - Blog Gran Cursos Online",
+      "categoria": "Gestão e controladoria",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE42VndsaXFJNks3NlQ1VHd6R2ZYeUREeVgyNHlDcTJMTUhRTlE2RVpiT3hNRlZpT0RpR2owNmQ3U0N3c1RFSDNBeGpQRzRHVGYxU3BkVm9XOFFXdkxSbW1n?oc=5",
+      "publicado_em": "2026-11-12T08:00:00+00:00",
+      "status": "Indício não verificado — confirmar anúncio e requisitos"
+    },
+    {
+      "id": "aa9de9759214b613b2",
+      "titulo": "Terminam nesta quinta-feira as inscrições para a última etapa da Jornada BIM Paraná 4.0 - Tá No Site",
+      "categoria": "VALORE e serviços técnicos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSmVGay1qUDl1N2N2bzRoZ2lJSTVZazdVNmZKZWlrRE9YeV9WWFFaVHFMNkZQRkVQcHQyYjhWVm1mQWJ0UUJmRkJHRUI3akxESENFanQxRVl3U005YVg0V2NiRlYtdUlYd2l5TUNWSzJhUXlROC1Td3dlVEdvdy1MRDQzUVlZbFRhUVVJUnFaOFpiSzdad1p2M0RPeUdFSlF6N2ZTUjk2dUlpVjc0c2ZidkNhZEF5TmlfRURPdWdDczdxYmZGVV9hNnVTRGtvdw?oc=5",
+      "publicado_em": "2026-11-10T08:00:00+00:00",
+      "status": "Indício não verificado — confirmar anúncio e requisitos"
+    },
+    {
+      "id": "a4f2d54f300755c049",
+      "titulo": "Empresa contratada sem licitação pela Prefeitura de SP superfaturou R$ 133 milhões em seis obras, aponta MP - G1",
+      "categoria": "VALORE e serviços técnicos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOakpCTnY4XzlwRC1hX09wY2JEYUdVMks5andsbkppWWJRWW11cTRzWUxPbTdLT1U2Ymt2ajNhSmwyOFFueVBDWXVHVllUek1TTzZVd0pfeW1QY1NsRXVPWlBuWFNjcDVZVkNLOHV0QVU1RWZCa2V2bncxYmdBcThiNDR1Sml1blNGV09PX0VzREJ6TzEzSWtwUWhKazNRV3BLWk9IRU8xcFE5NTFZX3FMME0xSlBWLWNnUEVodmo5NjZVRHFoLVNncnY4YjBXOFRyRXNPTHNpNnV6QUp1ZUNNWGlPamtPaGJVbTB6RXFpczNYM2JvQk1j?oc=5",
+      "publicado_em": "2026-11-06T08:00:00+00:00",
+      "status": "Indício não verificado — confirmar anúncio e requisitos"
+    },
+    {
+      "id": "bc2511d8147de7adb0",
+      "titulo": "Obra contratada sem licitação pela Prefeitura de SP tem indícios de R$ 44 milhões em superfaturamento, diz relatório do MP - G1",
+      "categoria": "VALORE e serviços técnicos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPc0hka0tKMUxIU2lHX0NhY1pWTEtuaHU3VE01ZE00Ri0zcUtFOG9PQUd4c1BlcTdCVXRQaUNIMGFlMWVhMFY0bjlsdGNCX2Y5aUtaWDJldHkxZ1hiMVlranVySHpOUG9pY2RXWFp0bXA3eFJrOVJtTE1FNlBQYnRZZmFuTmtmQkg2eDN6NnhxVkMwUktucXhiM0s1MGlmNEZiRUlkMjJMMVlTWXA3LXQ4Vi02Mjg1cU1pQkFNanBWT0FxTmtxY19zTjhlam9Jakx1M1MxV2xVR0VuMHkzNTRYeUlwVzhObEdoOUMyQ1g3NXB2MVJkUnVMc3VEbTk4MjlFcFhXWDk1cWVyTzTSAZoCQVVfeXFMTnlXS3RRZmpqM3NBTlF6VURTeFNFNDM5QnVnbXJhNjFQVElJS2lqVFA3TkdLNXE3SndzLTdfNFNXRnVzSXZqMkpGbUN3MkhlVTFrNHZiMFphVDBRNGdReFZldmxsYUJ3c1J2ZEh0alJpYVFRUlktVENDYW9oOEpKeWpUWE0taVRrN21QM1JNTm9BbmVXZ2RvTTlWSnZlUHpraDhHX1JYYm1QWXI5cnBlR0RlV1l1bzY2Z0V0aHpZT0lNOU1DOEdFQlJfOXRrLWs4NEUyMi1hdnJlNU5fYkQ5N2E3LVppeHJucUJTdG1RZHVSUEJHb0liV25BN1NKTXZLaVR2akxwOUxXb0ZYS05jbXpROFEzbjhPNkRR?oc=5",
+      "publicado_em": "2026-10-30T07:00:00+00:00",
+      "status": "Indício não verificado — confirmar anúncio e requisitos"
+    }
+  ],
+  "aviso": "Notícias e indícios, NÃO vagas nem contratos confirmados. Verifique fonte original, prazo e requisitos. Sem candidatura automática.",
+  "consultas_respondidas": 10,
   "falhas": []
 }

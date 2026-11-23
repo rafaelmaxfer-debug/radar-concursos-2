@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-23T11:50:32+00:00",
+  "atualizado_em": "2026-11-23T23:34:23+00:00",
   "referencia": "Fernandópolis, SP",
   "raio_km_configurado": 150,
   "abrangencia": "Brasil",
@@ -306,6 +306,19 @@
       "novo_na_coleta": false
     },
     {
+      "id": "68bd071070192bd1",
+      "titulo": "UNESP abre concurso para assistente administrativo II na área de Materiais em Araçatuba - SP - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNT1NYakdfZ05Jb0QzNTR1OHdNTFFDd05vMTJQMVRmQzYtZzBRSlBTVkRzenRhT2NlMHJBazBnNjhITnJOX1BsNW9zS3p6YnI0UFVvc3JTQl9PeUVKTUsxVnd2NnR6UFRtc2VpT3BuTzdFb0NSNmZ1c2w0MlhTQUhjQWF4eDZVcDdJODZqR1RZQWo4b21XRW5TQ2lDNzlRMW1xU09NeGhLa292dTF3ZHd4QjNZYUxocnNvb3ppTUZXS3VxaFhhaE4yTDVfQQ?oc=5",
+      "publicado_em": "Wed, 11 Nov 2026 08:00:00 GMT",
+      "consulta": "\"concurso público\" \"analista administrativo\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "novo_na_coleta": true
+    },
+    {
       "id": "bf40fdc6b271d71f",
       "titulo": "IFSP abre concurso público para cargos técnico-administrativos - PCI Concursos",
       "url_noticia": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaFRQV0VIVkhRZjZOaEEzcjF2WEJXNnczMk42amVtU1lObjBiTEk3VkxiVF9MRVlSd2U1N1hoQ3kwOVFHV2VZdHJBa3NUNlVXZS00Y2lRUHpDa19RQ2tMSzFGSTZycEVZZFBvSHd6MmcyVTVqbmpLT0ZqWDJ1ZG8wZkJIS3ZaV1BvUEFwQnJHUTBtTXZVbnU4RktqVDYxZDlVVUN0Uy1B?oc=5",
@@ -592,6 +605,19 @@
       "novo_na_coleta": false
     },
     {
+      "id": "fbc9eef4ba19a4d3",
+      "titulo": "Câmara de Lajinha-MG abre concurso público para Controlador Interno - Ache Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQREQ4N3lMcWhPa2h0c0k2YlZKX0pReXk3eTBSSkVCU2RMcnJrV2dDYUwySDkyaE5Oc2diR290QXltNnVsaEZwYXZLcGg3R0hXbjVLZVo1TnU1ZEJnU1h3U2hjSmtGblAxNjdpU1N1cENHMUlja1NoVHpTbGVMWjRrUWI4cE1aSXFwX1lBVjVGcnE5aV9BRThhWWl0c3RuSXhTN0N5SUlrWnZNZkkyRzZud3RvY1kyNU5acnlkN010NThqZw?oc=5",
+      "publicado_em": "Thu, 01 Oct 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"controlador interno\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "novo_na_coleta": true
+    },
+    {
       "id": "22d4152a9ea6d07c",
       "titulo": "Câmara Municipal de Lajinha MG abre concurso para controlador interno com 1 vaga - Qconcursos Folha Dirigida",
       "url_noticia": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNXlzNWVVUVh4TldROTRJdTk1aVlFcENMNmRFWGIyemV0VE10cktUMXktb0gzYW1RZl9BejQtZWNhUTVWNmVobVdLTDFwMnVOaWRXaWtUUEpKSm5yTEotejVqQ2lBQmpKQjVKOHZtcjZsUlhCa2NZRWZya0NDOW5FY0ZUQTVpVElFeXpYWmFHc1pWMk5yZkw1ZEtPSHY2Zm45ZlhiRTZMeTd5bVZVUXRMYw?oc=5",
@@ -876,6 +902,19 @@
       "prioridade_sugerida": "P4",
       "tipo_indicio": "Notícia em análise",
       "novo_na_coleta": false
+    },
+    {
+      "id": "dbcb2b75325bacb5",
+      "titulo": "Fernandópolis abre processo seletivo para contratação temporária de professores - O Extra.net",
+      "url_noticia": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeC11bkNjeVFGSHRPTU1nV2JXdzJ2cDhIbThwRHpVdDdheTlxU3N6ZVE2cDRNOUNDc3htNnZCUjZrMllpYTI1Tm9fT3JSY3Q5SmVwbGpYaEJtOVd1RzNrd2hJdzN0QThEZmg2WHB5dldkUWNHN2pMeU9sSlRUaDhYMlVLNjlhTHNlbkZqcGlvQzh3QWRaN2V5VGhCcjFJRmhwOHlnZW5HUQ?oc=5",
+      "publicado_em": "Thu, 19 Nov 2026 10:06:17 GMT",
+      "consulta": "\"concurso público\" \"Fernandópolis\" OR \"Jales\" OR \"Votuporanga\"",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 30,
+      "novo_na_coleta": true
     },
     {
       "id": "6b09219e94a7f336",
@@ -2685,10 +2724,7 @@
       "novo_na_coleta": false
     }
   ],
-  "falhas": [
-    "\"concurso público\" \"orçamento\" \"finanças\" edital: HTTPError: HTTP Error 429: Too Many Requests",
-    "\"concurso público\" \"engenharia civil\" \"prefeitura\" edital: HTTPError: HTTP Error 429: Too Many Requests"
-  ],
-  "novas_noticias": 0,
-  "fontes_com_falha": 2
+  "falhas": [],
+  "novas_noticias": 3,
+  "fontes_com_falha": 0
 }
