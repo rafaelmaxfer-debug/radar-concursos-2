@@ -8,6 +8,7 @@ import json
 import re
 import unicodedata
 import urllib.request
+import urllib.parse
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -166,6 +167,50 @@ def main():
             add(found,x.get('position'),x.get('company'),x.get('location'),x.get('description'),
                 True,x.get('url'),'Remote OK',x.get('date'))
     except Exception as exc: errors.append(f'Remote OK: {type(exc).__name__}: {exc}')
+    # Jobicy: API publica documentada. Filtro de elegibilidade segue 'jobGeo';
+    # a API nao deve ser interpretada como garantia de contratacao no Brasil.
+    try:
+        data=fetch('https://jobicy.com/api/jobs?count=100')
+        if data.get('success') is False: raise ValueError('Jobicy retornou success=false')
+        success+=1
+        for x in data.get('jobs',[]):
+            desc=x.get('jobDescription') or x.get('jobExcerpt') or ''
+            period=norm(x.get('salaryPeriod'))
+            if x.get('salaryCurrency')=='BRL' and period in ('monthly','month','mensal'):
+                amount=x.get('salaryMax') or x.get('salaryMin')
+                if isinstance(amount,(int,float)) and amount>0:
+                    desc+=' Salário mensal: R$ '+f'{int(amount):,}'.replace(',','.')
+            add(found,x.get('jobTitle'),x.get('companyName'),x.get('jobGeo'),
+                desc,True,x.get('url'),'Jobicy',x.get('pubDate'))
+    except Exception as exc:
+        errors.append(f'Jobicy: {type(exc).__name__}: {exc}')
+    # Himalayas: busca explicitamente elegibilidade Brasil (inclui vagas globais).
+    # Limita consultas para respeitar quota gratuita sem autenticacao.
+    for keyword in ('construction manager','operations manager','finance manager','civil engineer'):
+        try:
+            query=urllib.parse.urlencode({'q':keyword,'country':'BR','sort':'recent','page':1})
+            data=fetch('https://himalayas.app/jobs/api/search?'+query)
+            success+=1
+            for x in data.get('jobs',[]):
+                restrictions=x.get('locationRestrictions') or []
+                if isinstance(restrictions,list) and restrictions:
+                    names=' '.join(str(z.get('name') or z.get('code') or '') if isinstance(z,dict) else str(z) for z in restrictions)
+                    if not re.search(r'\b(br|brazil|brasil)\b',norm(names)): continue
+                    loc='Brazil'
+                else:
+                    loc='Worldwide'
+                desc=x.get('description') or x.get('excerpt') or ''
+                period=norm(x.get('salaryPeriod'))
+                amount=x.get('maxSalary') or x.get('minSalary')
+                if x.get('currency')=='BRL' and period in ('monthly','month','mensal') and isinstance(amount,(int,float)) and amount>0:
+                    desc+=' Salário mensal: R$ '+f'{int(amount):,}'.replace(',','.')
+                published=x.get('pubDate')
+                if isinstance(published,(int,float)):
+                    published=datetime.fromtimestamp(published,timezone.utc).isoformat()
+                add(found,x.get('title'),x.get('companyName'),loc,desc,True,
+                    x.get('applicationLink'),'Himalayas',published)
+        except Exception as exc:
+            errors.append(f'Himalayas {keyword}: {type(exc).__name__}: {exc}')
     # Vagas brasileiras curadas podem ser adicionadas sem alterar o coletor.
     curated=ROOT/'vagas_brasil.json'
     if curated.exists():
