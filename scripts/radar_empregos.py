@@ -57,6 +57,45 @@ def classify(title, company, location, description, remote):
     points+=min(12,3*sum(bool(re.search(k,d)) for k in ('power bi','excel','custo','budget','planejamento','equipe','cronograma','forecast')))
     return a,region,min(100,points)
 
+
+# Ordem regional aproximada para triagem, a partir de Estrela d'Oeste.
+# Não é distância rodoviária. Localidade ambígua recebe prioridade menor.
+CIDADES_PRIORIDADE = (
+    'estrela d oeste', 'fernandopolis', 'ouroeste', 'jales', 'votuporanga',
+    'santa fe do sul', 'general salgado', 'cardoso', 'nhandeara',
+    'auriflama', 'tanabi', 'mirassol', 'sao jose do rio preto',
+    'andradina', 'ilha solteira',
+)
+
+def identificar_cidade(local):
+    t=norm(local)
+    for c in CIDADES_PRIORIDADE:
+        if re.search(r'(?<![a-z])'+re.escape(c)+r'(?![a-z])', t):
+            return c.title(), CIDADES_PRIORIDADE.index(c)
+    return None, None
+
+def salario_mensal(descricao):
+    """Somente valores declarados explicitamente como salário mensal em BRL.
+    Sem inferir salário a partir de moeda estrangeira, faixa anual ou benefícios.
+    """
+    t=clean(descricao)
+    m=re.search(r'(?:sal[aá]rio(?:\s+(?:mensal|base))?|remunera[cç][aã]o(?:\s+mensal)?)\s*[:\-]?\s*R\$\s*(\d{1,3}(?:\.\d{3})+|\d{4,6})(?:,(\d{2}))?',t,re.I)
+    if not m: return None
+    context=norm(t[max(0,m.start()-35):min(len(t),m.end()+45)])
+    if re.search(r'\b(ano|anual|year|semana|semanal|hora|hour)\b',context): return None
+    amount=float(m.group(1).replace('.','')+'.'+(m.group(2) or '00'))
+    return round(amount,2) if 1000<=amount<=200000 else None
+
+def pontuar_prioridade(comp, local, remuneracao):
+    cidade, ordem=identificar_cidade(local)
+    # 60% adequação, até 25 pontos de proximidade regional e 15 de salário.
+    # Salário omitido é desconhecido, nunca estimado.
+    prox=25 if ordem==0 else max(10,24-2*ordem) if ordem is not None else (10 if 'brazil' in norm(local) or 'brasil' in norm(local) else 7)
+    sal=0 if remuneracao is None else min(15,max(1,round(remuneracao/1200)))
+    score=round(0.60*comp+prox+sal)
+    grau='Alta' if score>=75 else 'Média' if score>=55 else 'Baixa'
+    return score,grau,cidade,ordem
+
 def fetch(url):
     req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; RadarInteligente/3.1)', 'Accept':'application/json'})
     with urllib.request.urlopen(req,timeout=22) as response:
@@ -86,9 +125,14 @@ def add(items, title, company, location, description, remote, url, source, publi
     ): return
     # Evitar vagas estrangeiras sem indicação explícita de elegibilidade brasileira.
     if region=='sp' and not (re.search(r'brasil|brazil|sao paulo|\bsp\b',norm(location))): return
+    remuneracao=salario_mensal(description)
+    ranking,grau,cidade,ordem=pontuar_prioridade(score, location, remuneracao)
     uid=hashlib.sha256(str(url).encode()).hexdigest()[:18]
     items.append({'id':uid,'titulo':title,'empresa':company,'localidade':location,'remoto':bool(remote),
-                  'area':a,'regiao':region,'compatibilidade':score,'resumo':description[:340],
+                  'area':a,'regiao':region,'compatibilidade':score,
+                  'prioridade_pontos':ranking,'grau_importancia':grau,
+                  'cidade_identificada':cidade,'proximidade_ordem':ordem,
+                  'salario_mensal_brl':remuneracao,'resumo':description[:340],
                   'url':url,'fonte':source,'publicado_em':str(published or '')})
 
 def main():
@@ -133,7 +177,7 @@ def main():
     # Não reaproveitar vagas antigas quando as fontes responderam mas não encontraram vagas elegíveis.
     if success==0 and old: found=old
     unique={x['id']:x for x in found}
-    jobs=sorted(unique.values(),key=lambda x:(-x['compatibilidade'],x['titulo']))[:400]
+    jobs=sorted(unique.values(),key=lambda x:(-x.get('prioridade_pontos',0),x['titulo']))[:400]
     result={'atualizado_em':datetime.now(timezone.utc).isoformat(timespec='seconds'),
             'total':len(jobs),'vagas':jobs,
             'aviso':'Vagas públicas não verificadas individualmente. Localidade e elegibilidade devem ser confirmadas no anúncio. Pontuação apenas heurística. Aprovar não envia candidatura.',
