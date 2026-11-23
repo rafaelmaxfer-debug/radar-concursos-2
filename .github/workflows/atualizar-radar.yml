@@ -5,6 +5,16 @@ on:
   schedule:
     - cron: '0 11 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/radar_empregos.py'
+      - 'scripts/radar_oportunidades.py'
+      - '.github/workflows/atualizar-radar.yml'
+
+concurrency:
+  group: coleta-radar
+  cancel-in-progress: false
 
 permissions:
   contents: write
