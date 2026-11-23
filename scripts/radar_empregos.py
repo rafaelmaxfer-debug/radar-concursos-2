@@ -180,6 +180,13 @@ def main():
         ('Votuporanga','obras'),
         ('São José do Rio Preto','obras'),
         ('São José do Rio Preto','controller'),
+        ('Fernandópolis','engenheiro'),
+        ('Jales','administrativo'),
+        ('Votuporanga','engenheiro'),
+        ('São José do Rio Preto','engenheiro civil'),
+        ('São José do Rio Preto','gerente administrativo'),
+        ('São José do Rio Preto','coordenador de obras'),
+        ('São José do Rio Preto','controladoria'),
     )
     for city,term in consultas_regionais:
         try:
