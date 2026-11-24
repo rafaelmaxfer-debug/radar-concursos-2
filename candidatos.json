@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-23T23:38:44+00:00",
+  "atualizado_em": "2026-11-24T11:53:53+00:00",
   "referencia": "Fernandópolis, SP",
   "raio_km_configurado": 150,
   "abrangencia": "Brasil",
@@ -174,6 +174,19 @@
       "pontuacao_preliminar": 45,
       "tipo_indicio": "Notícia em análise",
       "novo_na_coleta": false
+    },
+    {
+      "id": "59465ca43538432d",
+      "titulo": "Prefeitura de Adolfo - SP abre concurso público para o cargo de contador - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORWFqX2h3MjI2a3hobHVPdnozQXhJZlM2TE1GUFJMRkd6ekZCV09FTXpHNHctVHdoaFZPUmh6Uzh0RGF2NWFvcmliMVZyMHNrN1dYSTdLV3dGOFNZaXNMdFB6YkcxYnRxREV4TVRsdWZIaEY0V1c5THo5Z0lkTUR2YW9WVkt3RlI0Y3F3X2ZvMHNtaVJBdjkwbS1iVHFnM0hPdi1wQVI4YlZkTEJEb1Noeg?oc=5",
+      "publicado_em": "Mon, 23 Nov 2026 15:17:12 GMT",
+      "consulta": "\"concurso público\" \"contador\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "novo_na_coleta": true
     },
     {
       "id": "5a92c97fe4535510",
@@ -852,32 +865,6 @@
       "novo_na_coleta": false
     },
     {
-      "id": "ca91848512f2422e",
-      "titulo": "TCDF anuncia retificação do concurso público para o cargo de Analista Administrativo - PCI Concursos",
-      "url_noticia": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUURMS3RxSXhDd01rbFFsem4xamozcVh5dTVMOWprWlBpYVZHSU03b2xBRXFGbmdEMVdSajJUQWR4VTh1eHQxR2dVdy1YNXh3LXpVT1JaWGl0OFpoM204NmR0Ym9zN1FLZDVqV0dnZXdJYzdRcnRRZ2tPUXhpY2hxdVNGX01WN0RFRm8xSG00NC1GQ2VFQTBwa0xPb0x6Mk9FbjFJZ2JQMGhoUzJneHBXV1Q2S0ZGdU1xdFhBbVgtZy1WdXc?oc=5",
-      "publicado_em": "Wed, 26 Aug 2026 07:00:00 GMT",
-      "consulta": "\"concurso público\" \"analista\" \"tribunal\" edital",
-      "situacao": "Aguardando conferência do edital oficial",
-      "verificado": false,
-      "prioridade_sugerida": "P4",
-      "pontuacao_preliminar": 38,
-      "tipo_indicio": "Notícia em análise",
-      "novo_na_coleta": false
-    },
-    {
-      "id": "b068c0f655f3cebc",
-      "titulo": "Concurso CGU: banca tem orçamento de R$ 5 milhões aprovado - Blog Gran Cursos Online",
-      "url_noticia": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOb1BrQU5tNTBZaWdxSXdmWlhRdUU3UmVYM2UwQXhaelRKWWZnUEFJQmhIcmF1RWxUZTU2R1ZZME9uYjRYY1M3aUdWaGtnZTVfMnNkR2hEM0hsdllwYTNiSnhxNW5kRnhvVk9QeTBJLTBDMG55WEVTVXp6YlVlQWF3SG1mTWtjUQ?oc=5",
-      "publicado_em": "Wed, 26 Aug 2026 07:00:00 GMT",
-      "consulta": "\"concurso público\" \"orçamento\" \"finanças\" edital",
-      "situacao": "Aguardando conferência do edital oficial",
-      "verificado": false,
-      "tipo_indicio": "Notícia em análise",
-      "prioridade_sugerida": "P4",
-      "pontuacao_preliminar": 38,
-      "novo_na_coleta": false
-    },
-    {
       "id": "c47fb7dc75382157",
       "titulo": "CORECA abre inscrições para Concurso Público com vagas na Casa Abrigo de Jales - O Extra.net",
       "url_noticia": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNTdUek9LSmpKd1g2VG8zbEdwUF9JSnllakd2cW16VzZzSGR1UG5SUkdrd2RzWnNUUWtrZXU0bVB6UUFXRUFYQThwZE12aFZGbjkxMXhHRE5CeEU4UWxDRm85SldzV2pJM1lidVl3bEp5QTJCS2czSk00WUFWZ0tvSHE0dHd3eFBTZVBCZXNSQWo0NC1jUjdfLXpFczFpSkVnb21LN1Zn?oc=5",
@@ -1019,6 +1006,32 @@
       "prioridade_sugerida": "P4",
       "tipo_indicio": "Notícia em análise",
       "novo_na_coleta": false
+    },
+    {
+      "id": "b24ff5012527db89",
+      "titulo": "UNESP revoga concurso público para docente no Departamento de Letras Modernas de São José do Rio Preto - SP - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTHI4TW5nOGlqZXcwYy1QWThEVGRBeHBTU0o0S3lSZnYwb2hrczJUaVk4X2FFQUI4cGxHNTZXQ2lJM19HMjFjRGNzblBycTZ5U3RIUFpsbmh4NThzN241X0pKZUZWZmtOWDExb0Z1dlE2YVBQbHNlQklnOWJFSlBYYUFtbDNHUGRGUkpsRzVycWM4TENNY0dILWlaeXJpdU4xX0c1U2JrSmFtNEZDTUtYTTI5SDFUTG0xUWotOVEyRDhXUlkyc0FmbGl6UzZPNDdKUkJPZ2tOdDd6emFuSWI0?oc=5",
+      "publicado_em": "Fri, 16 Oct 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"São José do Rio Preto\" OR \"Santa Fé do Sul\" OR \"Andradina\"",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 30,
+      "novo_na_coleta": true
+    },
+    {
+      "id": "9cbb33981bf77b79",
+      "titulo": "UNESP abre vagas para professores substitutos de Física Geral em São José do Rio Preto - SP - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcS1PQWMtVEFYVEw3andQWXhGSm11ajNsS2VTSDhzUFJMQjBCaGNGQVhMd2ZHZm1tMENkTmxxUWFqR2pxcGtERkpwQTNhSGFZZzZYY3lEOXJtcFJxaWRtTDlpSlJHZEctcVNUZ2VuYkVBVldkMmYwUkRGUDJOZXpkcV9ZREpyUUVmRHpZYldDdlMzMUpJY1ZYMkNXcmdYVkFLLVRGQzBPVzFsLVA3a1hGMUt1eXRDUURTbEdBZGlUZ194aTdFeUlpN1lR?oc=5",
+      "publicado_em": "Tue, 06 Oct 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"São José do Rio Preto\" OR \"Santa Fé do Sul\" OR \"Andradina\"",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 30,
+      "novo_na_coleta": true
     },
     {
       "id": "ce857b44db12ab84",
@@ -1311,19 +1324,6 @@
       "titulo": "Concurso SEFAZ-SC e outros 7 editais abrem inscrições nesta sexta (04/09); veja lista - Ache Concursos",
       "url_noticia": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMTZtSVl4Mi1KbnZXdzNocGFMeG9CM043d3EyeXhrdWwzdVdveVhyUE1jYnZEdkE4cERHUklKamx0THNHVjRreTYtNVJUUF95Snp2Q3UyVlFENlpXT2ZjZFE5SkdpZms0eEQzcFJLbGpodFZFQlNVSWJ5WkI3OFJlMm4tSXZ4dlRmdmZESTQ0Rno2dWg1bXZxYVl6V1pnN25TaHZRa2UyYW50ejI4cUw3M3VjT05qcnNheWNjVmJqSlloTzk4dFRYRFp3?oc=5",
       "publicado_em": "Thu, 03 Sep 2026 07:00:00 GMT",
-      "consulta": "\"concurso público\" \"SEFAZ\" \"finanças\" edital",
-      "situacao": "Aguardando conferência do edital oficial",
-      "verificado": false,
-      "prioridade_sugerida": "P5",
-      "pontuacao_preliminar": 20,
-      "tipo_indicio": "Notícia em análise",
-      "novo_na_coleta": false
-    },
-    {
-      "id": "b48d077dd2820c83",
-      "titulo": "Concurso Sefaz RJ: resultados finais homologados! - Estratégia Concursos",
-      "url_noticia": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5EOHZvd3VwU3lCQkM1dVo5SklUNFBsSVRXU1NLNm5fQ1piVDFxSC0xQnFyTTNiTDFOMmtCejU0ak8wdEJzVzg0SERlRlRTR0NPLTItMzVvTkJUemVVRGRNcXhVRHVDRG1oMVHSAW9BVV95cUxOS0p4a19Ha1d5LU9XSTZLbVVsQVFYLWxaV1E3RFhjT0oyTHUtSGFORFEybjc0REVQUFFIRDRHYnRaQWRPdXBxQ1JQZnloZ0NUTXBTenVhM1hhNHlMZ2xLeVlGU2JoYWNsU1BEbDhQZ0E?oc=5",
-      "publicado_em": "Wed, 26 Aug 2026 07:00:00 GMT",
       "consulta": "\"concurso público\" \"SEFAZ\" \"finanças\" edital",
       "situacao": "Aguardando conferência do edital oficial",
       "verificado": false,
@@ -2725,6 +2725,6 @@
     }
   ],
   "falhas": [],
-  "novas_noticias": 0,
+  "novas_noticias": 3,
   "fontes_com_falha": 0
 }
