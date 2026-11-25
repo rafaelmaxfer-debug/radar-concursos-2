@@ -1,7 +1,15 @@
 {
-  "atualizado_em": "2026-11-24T11:54:29+00:00",
-  "total": 20,
+  "atualizado_em": "2026-11-25T11:55:55+00:00",
+  "total": 22,
   "oportunidades": [
+    {
+      "id": "fc5c0af4a0fad8fb92",
+      "titulo": "Cetesb autoriza corte de 522 árvores na Murchid e Prefeitura prepara nova licitação - Diário da Região",
+      "categoria": "VALORE e serviços técnicos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOeWpWWXEza2dGOVplUWdVOEFHTzJmT002OUZyMnh0b0VhYUxvVmNBQWp5WklfWUtYUG1hMEtQZkhQM2VkSEZDMUtHaDZuazd0SVhUNU1JZGlwSTlCcnczbk01VlVleU43clY5SVdoYjhacXRFdGlDMnFuaU9tbmxuMGY3d2JwWkNoUUFiZExlV0dXdUJCSVJIdEt1LXk4bUpCaGRrdFJpV2xKRmxpN21HU25Ialh6LUhrR1RMV3d3U2ZTNXhFVm5YbnE4ZWc2SzJHUnVlS2t3aw?oc=5",
+      "publicado_em": "2026-11-24T01:36:59+00:00",
+      "status": "Indício não verificado — confirmar anúncio e requisitos"
+    },
     {
       "id": "c2debc3a6fc3aa5f73",
       "titulo": "TCE-BA impede Cerb de prorrogar contrato de engenharia de R$ 32,7 milhões - Acesse Política",
@@ -16,6 +24,14 @@
       "categoria": "VALORE e serviços técnicos",
       "url_noticia": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPLUwtNU5TRG9Nd21sRkF5R1gwNWpnSjQ2OXlfUjRVUmJORU5uMDNpN0xwd2ZCSUJEMm1Fd09NRDF3RlZZbGFkbFBjdmR6ZDJiREsxa3JQZHROQl9rRzBDZWxVVnFpNWJjLUVIaWpXRkxEb01aS3dTa3pmTDlVRENpMQ?oc=5",
       "publicado_em": "2026-11-20T23:30:56+00:00",
+      "status": "Indício não verificado — confirmar anúncio e requisitos"
+    },
+    {
+      "id": "ac89b7d0d48e0c8ceb",
+      "titulo": "Contratos firmados pela Secretaria Municipal da Saúde - 2025 - Prefeitura de São Paulo",
+      "categoria": "VALORE e serviços técnicos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNb3pTNmZUY1p4d1dIcUxGVTU4X3FFMEE4U1NFN0FTRXVrZUxETEpXbGx4ZFdHeVA2S09wNl9uV0JObkRXWnpaOGJVOVJZNklOT3UtTEFxTmFrT1dvbHhIWVRPbjJ2XzZlQVZvdmluTUx4eUNlaWxuSVpiQ2p0TFFUWGZNSXhMVzFMbWZJcFVKak1VOUNtYTliVEljTy1Td2paMDFrYWhucw?oc=5",
+      "publicado_em": "2026-11-20T08:00:00+00:00",
       "status": "Indício não verificado — confirmar anúncio e requisitos"
     },
     {
@@ -155,11 +171,11 @@
       "status": "Indício não verificado — confirmar anúncio e requisitos"
     },
     {
-      "id": "a134076d0f29651ab4",
-      "titulo": "Governo de SP Lança Edital para Implementação do Parque do Moinho: Um Novo Marco de Requalificação Urbana - Jornal Digital da Região Oeste",
+      "id": "52d10de47b9f5d5fab",
+      "titulo": "Obra contratada sem licitação pela Prefeitura de SP tem indícios de R$ 44 milhões em superfaturamento, diz relatório do MP - G1",
       "categoria": "VALORE e serviços técnicos",
-      "url_noticia": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VVUFJUTB2OGRObkc2Y3F6TFFKNVN6NVVFX3U3OUJjLWhTbzhFclRraGxCakdTcDJ0NWF5N0VyZmoxWTYyQkdXanVyU3IwSGZmeVoyVUZ6YzdtNlN1aXBBNzZEZ1h3dmZBT3dFTnVTUGZ1VDVq?oc=5",
-      "publicado_em": "2026-10-26T07:00:00+00:00",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPc0hka0tKMUxIU2lHX0NhY1pWTEtuaHU3VE01ZE00Ri0zcUtFOG9PQUd4c1BlcTdCVXRQaUNIMGFlMWVhMFY0bjlsdGNCX2Y5aUtaWDJldHkxZ1hiMVlranVySHpOUG9pY2RXWFp0bXA3eFJrOVJtTE1FNlBQYnRZZmFuTmtmQkg2eDN6NnhxVkMwUktucXhiM0s1MGlmNEZiRUlkMjJMMVlTWXA3LXQ4Vi02Mjg1cU1pQkFNanBWT0FxTmtxY19zTjhlam9Jakx1M1MxV2xVR0VuMHkzNTRYeUlwVzhObEdoOUMyQ1g3NXB2MVJkUnVMc3VEbTk4MjlFcFhXWDk1cWVyTzQ?oc=5",
+      "publicado_em": "2026-10-30T07:00:00+00:00",
       "status": "Indício não verificado — confirmar anúncio e requisitos"
     }
   ],
