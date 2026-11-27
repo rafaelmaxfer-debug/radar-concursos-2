@@ -1,7 +1,15 @@
 {
-  "atualizado_em": "2026-11-26T11:54:50+00:00",
-  "total": 22,
+  "atualizado_em": "2026-11-27T11:52:49+00:00",
+  "total": 24,
   "oportunidades": [
+    {
+      "id": "e3814671e9619c847b",
+      "titulo": "CPTM contrata sondagens para projetos de passarelas ferroviárias nas estações Brás, em São Paulo, e Guapituba, em Mauá, no ABC Paulista - Diário do Transporte",
+      "categoria": "VALORE e serviços técnicos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQYndsMlVnTXVhMm00ZEEydU50MU85bWtjUWJIczU3ZXV0Wjl5eXlLMGZMRGZJNm5ad3VjbnVJVjVDR2VzSHVGWDhsMHJHNmVHUjlvR3NMWEVqel9QNG5YOGFFcVFYY0R5WmRlOFFMRzBDQXlxdDFBak4wVExPeWU5RzZXcEdUNmVuQjJyRzgzREZNei1uSkh2ZWZ6RFMtUmV1ZDBsU05VTldxNHhPZVZROUJEYlFTcjU5dkZHYmQ3WS1kdmRBWW5LSHJTZGpWUkhnTFdNaUw2Y05mUkl5V1N5QXlCV0hnS0l3eXRXSlNUWVdZMzBWcGdxSlJ0Sk03WVdVODZ6VWVWc0I5VlZ2SlHSAY4CQVVfeXFMUGJ3bDJVZ011YTJtNGRBMnVOdDFPOW1rY1FiSHM1N2V1dFo5eXl5SzBmTERmSTZuWnd1Y251SVY1Q0dlc0h1Rlg4bDByRzZlR1I5b0dzTFhFanpfUDRuWDhhRXFRWGNEeVpkZThRTEcwQ0F5cXQxQWpOMFRMT3llOUc2V3BHVDZlbkIyckc4M0RGTXotbkpIdmVmekRTLVJldWQwbFNOVU5XcTR4T2VWUTlCRGJRU3I1OXZGR2JkN1ktZHZkQVluS0hyU2RqVlJIZ0xXTWlMNmNOZlJJeVdTeUF5QldIZ0tJd3l0V0pTVFlXWTMwVnBncUpSdEpNN1lXVTg2elVlVnNCOVZWdkpR?oc=5",
+      "publicado_em": "2026-11-26T16:00:27+00:00",
+      "status": "Indício não verificado — confirmar anúncio e requisitos"
+    },
     {
       "id": "fc5c0af4a0fad8fb92",
       "titulo": "Cetesb autoriza corte de 522 árvores na Murchid e Prefeitura prepara nova licitação - Diário da Região",
@@ -135,6 +143,14 @@
       "titulo": "Empresa contratada sem licitação pela Prefeitura de SP superfaturou R$ 133 milhões em seis obras, aponta MP - G1",
       "categoria": "VALORE e serviços técnicos",
       "url_noticia": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOakpCTnY4XzlwRC1hX09wY2JEYUdVMks5andsbkppWWJRWW11cTRzWUxPbTdLT1U2Ymt2ajNhSmwyOFFueVBDWXVHVllUek1TTzZVd0pfeW1QY1NsRXVPWlBuWFNjcDVZVkNLOHV0QVU1RWZCa2V2bncxYmdBcThiNDR1Sml1blNGV09PX0VzREJ6TzEzSWtwUWhKazNRV3BLWk9IRU8xcFE5NTFZX3FMME0xSlBWLWNnUEVodmo5NjZVRHFoLVNncnY4YjBXOFRyRXNPTHNpNnV6QUp1ZUNNWGlPamtPaGJVbTB6RXFpczNYM2JvQk1j?oc=5",
+      "publicado_em": "2026-11-06T08:00:00+00:00",
+      "status": "Indício não verificado — confirmar anúncio e requisitos"
+    },
+    {
+      "id": "56f8f84c48107c013b",
+      "titulo": "Empresa contratada sem licitação pela Prefeitura de SP superfaturou R$ 133 milhões em seis obras, aponta MP - G1",
+      "categoria": "VALORE e serviços técnicos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOakpCTnY4XzlwRC1hX09wY2JEYUdVMks5andsbkppWWJRWW11cTRzWUxPbTdLT1U2Ymt2ajNhSmwyOFFueVBDWXVHVllUek1TTzZVd0pfeW1QY1NsRXVPWlBuWFNjcDVZVkNLOHV0QVU1RWZCa2V2bncxYmdBcThiNDR1Sml1blNGV09PX0VzREJ6TzEzSWtwUWhKazNRV3BLWk9IRU8xcFE5NTFZX3FMME0xSlBWLWNnUEVodmo5NjZVRHFoLVNncnY4YjBXOFRyRXNPTHNpNnV6QUp1ZUNNWGlPamtPaGJVbTB6RXFpczNYM2JvQk1j0gGGAkFVX3lxTE05Q3NFelBVdE5FRlJMeWYzN196bXBzNnBtVHdCNTQyWjRYNklXQXZyVkl1engyZjJZQk0tRW9aRzl4SDdmR0dBa25KUnE5ajRtTkJ2ZHlMbDFJbUp5eTFMVEJHZWxwTG02M0IzVndVam40QzJWc0M5Q3M2ZkhXQ2hNQlFBd0tDQThwOVU1dXc5VWxwcy02ZWtJNHpuQnZyYk50LW14TU1WaEx2UlVkcTI1VzRTQW8tX0lxMzBCRnBNWE9lMGNpN250THVNbGhxSXpTWnM5amRoNG5OdU9JRDc0VlVGTmJWRWhjOUJKSWNqa3JYM3lfdXFtMW5HQTlqUThKOFVyWVE?oc=5",
       "publicado_em": "2026-11-06T08:00:00+00:00",
       "status": "Indício não verificado — confirmar anúncio e requisitos"
     },

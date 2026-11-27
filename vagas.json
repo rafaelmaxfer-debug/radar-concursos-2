@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-11-26T11:54:50+00:00",
-  "total": 15,
+  "atualizado_em": "2026-11-27T11:52:49+00:00",
+  "total": 17,
   "vagas": [
     {
       "id": "0ddc165d12b28b9d84",
@@ -96,6 +96,25 @@
       "url": "https://himalayas.app/companies/latino-legends/jobs/administrative-manager?utm_source=api",
       "fonte": "Himalayas",
       "publicado_em": "2026-11-19T16:51:16+00:00"
+    },
+    {
+      "id": "7ffeac3aa615a718b8",
+      "titulo": "Project Manager",
+      "empresa": "Superside",
+      "localidade": "LATAM",
+      "remoto": true,
+      "area": "gestao",
+      "regiao": "remoto",
+      "compatibilidade": 77,
+      "prioridade_pontos": 53,
+      "grau_importancia": "Baixa",
+      "cidade_identificada": null,
+      "proximidade_ordem": null,
+      "salario_mensal_brl": null,
+      "resumo": "Superside is looking for Project Managers to strengthen our team. You will craft and execute creative strategies and assets for some of the world’s most forward-thinking companies. All of this while working in a global remote community focused on shaping the future of creative work. In this role, you’ll take ownership of key accounts from",
+      "url": "https://jobicy.com/jobs/157315-project-manager-7",
+      "fonte": "Jobicy",
+      "publicado_em": "2026-11-27T03:40:42+00:00"
     },
     {
       "id": "cf36806445049e0d18",
@@ -286,6 +305,25 @@
       "url": "https://himalayas.app/companies/inv/jobs/road-inspector-civil-engineer-freelance-ai-trainer-project?utm_source=api",
       "fonte": "Himalayas",
       "publicado_em": "2026-11-19T18:18:11+00:00"
+    },
+    {
+      "id": "cb85817a64a7bb53b0",
+      "titulo": "Global Controller",
+      "empresa": "Customer.io",
+      "localidade": "LATAM, Canada, USA",
+      "remoto": true,
+      "area": "financas",
+      "regiao": "remoto",
+      "compatibilidade": 53,
+      "prioridade_pontos": 39,
+      "grau_importancia": "Baixa",
+      "cidade_identificada": null,
+      "proximidade_ordem": null,
+      "salario_mensal_brl": null,
+      "resumo": "About Customer.io Over 9,000 companies — from scrappy startups to global brands — use our platform to send billions of emails, push notifications, in-app messages, and SMS every day. Customer.io powers automated communication that people actually want to receive. We help teams send smarter, more relevant messages using real-time behaviora",
+      "url": "https://jobicy.com/jobs/157340-global-controller-2",
+      "fonte": "Jobicy",
+      "publicado_em": "2026-11-27T03:40:22+00:00"
     }
   ],
   "aviso": "Vagas públicas não verificadas individualmente. Localidade e elegibilidade devem ser confirmadas no anúncio. Pontuação apenas heurística. Aprovar não envia candidatura.",

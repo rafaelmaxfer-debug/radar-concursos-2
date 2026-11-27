@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-26T11:54:38+00:00",
+  "atualizado_em": "2026-11-27T11:52:37+00:00",
   "referencia": "Fernandópolis, SP",
   "raio_km_configurado": 150,
   "abrangencia": "Brasil",
@@ -291,6 +291,19 @@
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
       "novo_na_coleta": false
+    },
+    {
+      "id": "40b3fe1545c8bbf0",
+      "titulo": "Concurso TJ PR Contador: gabarito definitivo divulgado - Magistrar",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GSTU4MHRhNC1kVFVKck1FdnFENVFuMlBmc0lWb1ZSbENmb2dMckFZbFFnbkZHWEhSZV9jWm1sZHVGT3lXQkJ1TUhPZ0tOQl9QcTF6ZXBwU0szaWZzbXNxVQ?oc=5",
+      "publicado_em": "Fri, 13 Nov 2026 08:00:00 GMT",
+      "consulta": "\"concurso público\" \"contador\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "novo_na_coleta": true
     },
     {
       "id": "6c9d99e1d34f3607",
@@ -1045,6 +1058,19 @@
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 30,
       "novo_na_coleta": false
+    },
+    {
+      "id": "77c53623e58faf82",
+      "titulo": "UNESP abre concurso para professor titular em São José do Rio Preto - SP - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQlNGcWVQLWtaOHNhZ196VUZxSE9SUVNxUmlXOUhORXVGVUJFLUp2dlNua191bFFFWUtHRUVtZjFuRTFHRmlNRTJ4LTdMcTVUUUxMSlJDSTU0c1RGZmtfWk9fMjNRZU9XdFZnVHFiSjkyMUg1bGR5T3dqa1pKQmRncmVnTlIyTlZ2LXdPZ0ZCNFljaUk5YjJYZ3RZVEFzcnpVZkFsZUpWcUtPdmJHREdZMQ?oc=5",
+      "publicado_em": "Tue, 13 Oct 2026 07:00:00 GMT",
+      "consulta": "\"concurso público\" \"São José do Rio Preto\" OR \"Santa Fé do Sul\" OR \"Andradina\"",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 30,
+      "novo_na_coleta": true
     },
     {
       "id": "9cbb33981bf77b79",
@@ -2712,6 +2738,6 @@
     }
   ],
   "falhas": [],
-  "novas_noticias": 0,
+  "novas_noticias": 2,
   "fontes_com_falha": 0
 }

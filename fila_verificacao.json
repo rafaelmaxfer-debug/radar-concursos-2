@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-11-26T11:54:44+00:00",
-  "total": 208,
+  "atualizado_em": "2026-11-27T11:52:44+00:00",
+  "total": 210,
   "fila": [
     {
       "id": "046fd306f3871012",
@@ -257,6 +257,16 @@
       "titulo": "Concurso TCU: novo edital para auditor é previsto no PLOA 2027 - Qconcursos Folha Dirigida",
       "url_noticia": "https://news.google.com/rss/articles/CBMifkFVX3lxTE00T2xKWHdsejVTTEtNekY2ZVZ2ME8ta1dyankyTzZJVFQyLUZYTFFQNTRPUlB0S25mOGJkRF8zQlRpbnByRXdKVlJwWjd4U1Y1NmZfVEh1VF9qMWg2ekpBUVNKMFlHa3gxS1gwTzNwZlJZck43SEcweV9SeDlLQQ?oc=5",
       "publicado_em": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "situacao": "Aguardando conferência de edital em fonte oficial",
+      "edital_verificado": false
+    },
+    {
+      "id": "40b3fe1545c8bbf0",
+      "titulo": "Concurso TJ PR Contador: gabarito definitivo divulgado - Magistrar",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GSTU4MHRhNC1kVFVKck1FdnFENVFuMlBmc0lWb1ZSbENmb2dMckFZbFFnbkZHWEhSZV9jWm1sZHVGT3lXQkJ1TUhPZ0tOQl9QcTF6ZXBwU0szaWZzbXNxVQ?oc=5",
+      "publicado_em": "Fri, 13 Nov 2026 08:00:00 GMT",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
       "situacao": "Aguardando conferência de edital em fonte oficial",
@@ -817,6 +827,16 @@
       "titulo": "UNESP abre concurso para professor substituto no campus de São José do Rio Preto - PCI Concursos",
       "url_noticia": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUHJIR3FCRVVGc2VhS3BBUm9sWnVsUTRiMEVqQVB0bGR2OXpPbFBjLTh3dURSM3VUaUhxel9NWkl1NzFxdE5ZX3NkalJUME5WbHo4YXpUWEFFRVlXLXpoQUx3RzB0X2JNcEtoank0RkdnWDBWeG91aE5JeV9VYlhWQ1VadFVNU09xOXBLcmtwOHozNjAxM3FORHUxN2wyWmpwWmg5T29IdlBpWmRZUFhWZE0wd3VyT2g5VzN3eDh3?oc=5",
       "publicado_em": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 30,
+      "situacao": "Aguardando conferência de edital em fonte oficial",
+      "edital_verificado": false
+    },
+    {
+      "id": "77c53623e58faf82",
+      "titulo": "UNESP abre concurso para professor titular em São José do Rio Preto - SP - PCI Concursos",
+      "url_noticia": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQlNGcWVQLWtaOHNhZ196VUZxSE9SUVNxUmlXOUhORXVGVUJFLUp2dlNua191bFFFWUtHRUVtZjFuRTFHRmlNRTJ4LTdMcTVUUUxMSlJDSTU0c1RGZmtfWk9fMjNRZU9XdFZnVHFiSjkyMUg1bGR5T3dqa1pKQmRncmVnTlIyTlZ2LXdPZ0ZCNFljaUk5YjJYZ3RZVEFzcnpVZkFsZUpWcUtPdmJHREdZMQ?oc=5",
+      "publicado_em": "Tue, 13 Oct 2026 07:00:00 GMT",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 30,
       "situacao": "Aguardando conferência de edital em fonte oficial",
