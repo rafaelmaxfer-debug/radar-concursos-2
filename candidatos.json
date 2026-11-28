@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-27T11:52:37+00:00",
+  "atualizado_em": "2026-11-28T11:44:19+00:00",
   "referencia": "Fernandópolis, SP",
   "raio_km_configurado": 150,
   "abrangencia": "Brasil",
@@ -176,6 +176,19 @@
       "novo_na_coleta": false
     },
     {
+      "id": "b1d594269778eeae",
+      "titulo": "A Polícia Civil de Minas Gerais está autorizada a realizar um novo concurso público com até 3 mil vagas. A distribuição foi detalhada em documento do Comitê de Orçamento e Finanças (Cofin), após autorização do Governo de Minas. A maior parte das oport - Instagram",
+      "url_noticia": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE02M1M4NVdzUk8zS3dxbEF0ZThwbklFbTFlcGpZSlNLdlIxcE5DQjhreDVJRFV1Wnp1bS1GN0RxcnhidEp2eFRmRk5RNVNmaHVoVmc?oc=5",
+      "publicado_em": "Fri, 27 Nov 2026 21:59:53 GMT",
+      "consulta": "\"concurso público\" \"orçamento\" \"finanças\" edital",
+      "situacao": "Aguardando conferência do edital oficial",
+      "verificado": false,
+      "tipo_indicio": "Notícia em análise",
+      "prioridade_sugerida": "P4",
+      "pontuacao_preliminar": 38,
+      "novo_na_coleta": true
+    },
+    {
       "id": "4b67018a49992990",
       "titulo": "Concurso Curitiba – Administração e Servidores - Estratégia Concursos",
       "url_noticia": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQN05mMUJDcXdGRnFBdk85bUdfakZveWNVbE9oVGRUUlBzOHNMVGNVdVFOUFBLcXhINFptQzJ3dGlETTBJdldsMjEtOVZfZkkzN0RXMDZrYlR5M2ZOZXVMX3FhTHhJQ2EzUVpPc0l0UDhuc3prUHNMeGhhVDdib01rNXd6Mk03S3NpMGRN0gGQAUFVX3lxTE1oWXpEV2NMN09kZzhLQVpkQkFsellLYkRWTlhEcUhPQnNGVTBNQXY0UDk2dEcwdDk2N3g3SW1kV0NNMWotaHZpYWRhWnFscG1XUTgtajZvM1VIcm5GMXlOM1dUc19fV0ZDQlJ6SnJ1VURhbkhDYjdxRk9ESUtMUjJtLU00ajAtZU9zeXU3aG9fdw?oc=5",
@@ -303,7 +316,7 @@
       "tipo_indicio": "Notícia em análise",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 38,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "6c9d99e1d34f3607",
@@ -1070,7 +1083,7 @@
       "tipo_indicio": "Notícia em análise",
       "prioridade_sugerida": "P4",
       "pontuacao_preliminar": 30,
-      "novo_na_coleta": true
+      "novo_na_coleta": false
     },
     {
       "id": "9cbb33981bf77b79",
@@ -2738,6 +2751,6 @@
     }
   ],
   "falhas": [],
-  "novas_noticias": 2,
+  "novas_noticias": 1,
   "fontes_com_falha": 0
 }

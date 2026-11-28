@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-27T11:52:49+00:00",
+  "atualizado_em": "2026-11-28T11:44:30+00:00",
   "total": 17,
   "vagas": [
     {
@@ -41,25 +41,6 @@
       "publicado_em": "2026-11-19T16:53:10+00:00"
     },
     {
-      "id": "4ce5503b4e4e15dd1a",
-      "titulo": "Finance and Administration Manager (Caribbean – Remote)",
-      "empresa": "TheHiveCareers",
-      "localidade": "Remoto - elegivel Brasil",
-      "remoto": true,
-      "area": "financas",
-      "regiao": "remoto",
-      "compatibilidade": 74,
-      "prioridade_pontos": 54,
-      "grau_importancia": "Baixa",
-      "cidade_identificada": null,
-      "proximidade_ordem": null,
-      "salario_mensal_brl": null,
-      "resumo": "Finance and Administration Manager (Latin America – Remote) Job Overview We are seeking an experienced and results-driven Finance and Administration Manager to lead the company's financial operations and administrative functions across Latin America. This role is responsible for overseeing accounting, financial reporting, budgeting, compl",
-      "url": "https://himalayas.app/companies/thehivecareers/jobs/finance-and-administration-manager-caribbean-remote?utm_source=api",
-      "fonte": "Himalayas",
-      "publicado_em": "2026-11-01T11:42:31+00:00"
-    },
-    {
       "id": "02f7621027215fffd7",
       "titulo": "Product Operations Manager (LatAm Only)",
       "empresa": "R2",
@@ -98,23 +79,42 @@
       "publicado_em": "2026-11-19T16:51:16+00:00"
     },
     {
-      "id": "7ffeac3aa615a718b8",
-      "titulo": "Project Manager",
-      "empresa": "Superside",
-      "localidade": "LATAM",
+      "id": "723f5596c47c9f941c",
+      "titulo": "Operations Manager | Property Management Lead",
+      "empresa": "Pavago",
+      "localidade": "Remoto - elegivel Brasil",
       "remoto": true,
       "area": "gestao",
       "regiao": "remoto",
-      "compatibilidade": 77,
+      "compatibilidade": 71,
       "prioridade_pontos": 53,
       "grau_importancia": "Baixa",
       "cidade_identificada": null,
       "proximidade_ordem": null,
       "salario_mensal_brl": null,
-      "resumo": "Superside is looking for Project Managers to strengthen our team. You will craft and execute creative strategies and assets for some of the world’s most forward-thinking companies. All of this while working in a global remote community focused on shaping the future of creative work. In this role, you’ll take ownership of key accounts from",
-      "url": "https://jobicy.com/jobs/157315-project-manager-7",
-      "fonte": "Jobicy",
-      "publicado_em": "2026-11-27T03:40:42+00:00"
+      "resumo": "Operations Manager – Property Management Full-Time | Remote | EST Hours Location: LATAM | Supporting Miami & Orlando, Florida About the Role At Pavago , one of our clients is hiring an experienced Operations Manager to lead day-to-day operations for a growing U.S.-based residential property management company. This is a senior, hands-on l",
+      "url": "https://himalayas.app/companies/pavago/jobs/operations-manager-property-management-lead?utm_source=api",
+      "fonte": "Himalayas",
+      "publicado_em": "2026-11-28T11:09:40+00:00"
+    },
+    {
+      "id": "23b78182262d2e0d38",
+      "titulo": "Project Manager — Technology, Automation & Cross-Department Operations",
+      "empresa": "Fountain Forward",
+      "localidade": "Remoto - elegivel Brasil",
+      "remoto": true,
+      "area": "gestao",
+      "regiao": "remoto",
+      "compatibilidade": 71,
+      "prioridade_pontos": 53,
+      "grau_importancia": "Baixa",
+      "cidade_identificada": null,
+      "proximidade_ordem": null,
+      "salario_mensal_brl": null,
+      "resumo": "This is a remote position. REMOTE / WORK FROM HOME POSITION Before applying, please note: The entire application process must be completed in English. Fluent written and spoken English is required and will be evaluated. Applicants must be independent freelancers, not represented by another agency, and currently based in South America or A",
+      "url": "https://himalayas.app/companies/fountain-forward/jobs/project-manager-technology-automation-cross-department-operations?utm_source=api",
+      "fonte": "Himalayas",
+      "publicado_em": "2026-11-28T06:55:46+00:00"
     },
     {
       "id": "cf36806445049e0d18",
@@ -153,6 +153,25 @@
       "url": "https://himalayas.app/companies/syd-life-ai/jobs/operations-manager?utm_source=api",
       "fonte": "Himalayas",
       "publicado_em": "2026-11-23T00:20:29+00:00"
+    },
+    {
+      "id": "b0a7dbe58df880ca3b",
+      "titulo": "Revenue Operations Manager",
+      "empresa": "Canonical",
+      "localidade": "Worldwide",
+      "remoto": true,
+      "area": "gestao",
+      "regiao": "remoto",
+      "compatibilidade": 74,
+      "prioridade_pontos": 51,
+      "grau_importancia": "Baixa",
+      "cidade_identificada": null,
+      "proximidade_ordem": null,
+      "salario_mensal_brl": null,
+      "resumo": "Canonical has opened management positions for exceptional Revenue Operations leaders to grow our global direct, alliance, channel, partner and online sales. Our Revenue Operations teams analyse and drive interventions to maximise net customer retention, and lead robust, repeatable processes to plan, manage and deliver revenue. As a Revenu",
+      "url": "https://himalayas.app/companies/canonical/jobs/revenue-operations-manager?utm_source=api",
+      "fonte": "Himalayas",
+      "publicado_em": "2026-11-27T21:00:27+00:00"
     },
     {
       "id": "591a4270a8e2842d1e",
@@ -228,7 +247,7 @@
       "resumo": "Type: contract Location: remote Interview language: English About this role If you are a civil engineer who thrives on technical precision, applied problem-solving, and infrastructure-focused reasoning, this is a unique opportunity to contribute directly to how the next generation of AI systems understand and communicate complex engineeri",
       "url": "https://himalayas.app/companies/xperteez-technology/jobs/civil-engineer?utm_source=api",
       "fonte": "Himalayas",
-      "publicado_em": "2026-11-19T17:01:06+00:00"
+      "publicado_em": "2026-11-28T00:24:38+00:00"
     },
     {
       "id": "0e177348a55460c8ca",
@@ -304,26 +323,7 @@
       "resumo": "Are you a pavement professional or roadway inspector with hands-on experience conducting or interpreting Pavement Condition Index (PCI) surveys? Advanced AI systems are being developed to understand roadway conditions, interpret inspection imagery, and support infrastructure maintenance planning. High-quality training data based on real P",
       "url": "https://himalayas.app/companies/inv/jobs/road-inspector-civil-engineer-freelance-ai-trainer-project?utm_source=api",
       "fonte": "Himalayas",
-      "publicado_em": "2026-11-19T18:18:11+00:00"
-    },
-    {
-      "id": "cb85817a64a7bb53b0",
-      "titulo": "Global Controller",
-      "empresa": "Customer.io",
-      "localidade": "LATAM, Canada, USA",
-      "remoto": true,
-      "area": "financas",
-      "regiao": "remoto",
-      "compatibilidade": 53,
-      "prioridade_pontos": 39,
-      "grau_importancia": "Baixa",
-      "cidade_identificada": null,
-      "proximidade_ordem": null,
-      "salario_mensal_brl": null,
-      "resumo": "About Customer.io Over 9,000 companies — from scrappy startups to global brands — use our platform to send billions of emails, push notifications, in-app messages, and SMS every day. Customer.io powers automated communication that people actually want to receive. We help teams send smarter, more relevant messages using real-time behaviora",
-      "url": "https://jobicy.com/jobs/157340-global-controller-2",
-      "fonte": "Jobicy",
-      "publicado_em": "2026-11-27T03:40:22+00:00"
+      "publicado_em": "2026-11-28T00:40:51+00:00"
     }
   ],
   "aviso": "Vagas públicas não verificadas individualmente. Localidade e elegibilidade devem ser confirmadas no anúncio. Pontuação apenas heurística. Aprovar não envia candidatura.",
